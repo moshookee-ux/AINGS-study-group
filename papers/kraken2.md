@@ -1,6 +1,6 @@
 # Kraken 2：海量短序列怎样快速获得分类线索？
 
-[论文与方法](README.md) · [检验医学与病原生信](../01_检验医学与病原生信/README.md) · [方法对照](compare.md)
+[研究画廊](README.md) · [检验医学与病原生信](../01_检验医学与病原生信/README.md) · [方法对照](compare.md)
 
 **Improved metagenomic analysis with Kraken 2**<br/>
 Wood DE, Lu J, Langmead B. · *Genome Biology* · 2019<br/>

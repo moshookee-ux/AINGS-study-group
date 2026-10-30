@@ -1,6 +1,6 @@
 # scIB：怎样同时检查批次混合与生物结构保留？
 
-[论文与方法](README.md) · [多模态多组学](../02_多模态多组学/README.md) · [方法对照](compare.md)
+[研究画廊](README.md) · [多模态多组学](../02_多模态多组学/README.md) · [方法对照](compare.md)
 
 **Benchmarking atlas-level data integration in single-cell genomics**<br/>
 Luecken MD, Büttner M, Chaichoompu K et al. · *Nature Methods* · 2022<br/>

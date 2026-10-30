@@ -1,12 +1,16 @@
 # BERTax：离训练参考较远的序列，模型还能判断到哪一级？
 
-[论文与方法](README.md) · [检验医学与病原生信](../01_检验医学与病原生信/README.md) · [方法对照](compare.md)
+[研究画廊](README.md) · [检验医学与病原生信](../01_检验医学与病原生信/README.md) · [方法对照](compare.md)
 
 **Taxonomic classification of DNA sequences beyond sequence similarity using deep neural networks**<br/>
 Mock F, Kretschmer F, Kriese A et al. · *PNAS* · 2022<br/>
 [论文与图表](https://doi.org/10.1073/pnas.2122636119) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/36018838/) · [开放全文](https://europepmc.org/articles/PMC9436379)
 
 BERTax 用 DNA 片段上的预训练表示支持分类。它值得关注的不仅是 Transformer 结构，还有训练与测试在分类树上如何隔开：模型究竟是在识别近邻，还是对较远的类群仍有可用信息？
+
+![BERTax 方法概念图](../assets/gallery/bertax.svg)
+
+AINGS 概念图，沿输入、方法与任务整理阅读线索。
 
 ## 先把问题放在桌上
 

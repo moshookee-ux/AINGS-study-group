@@ -1,12 +1,16 @@
 # Kaiju：换到蛋白层面，能多认出哪些序列？
 
-[论文与方法](README.md) · [检验医学与病原生信](../01_检验医学与病原生信/README.md) · [方法对照](compare.md)
+[研究画廊](README.md) · [检验医学与病原生信](../01_检验医学与病原生信/README.md) · [方法对照](compare.md)
 
 **Fast and sensitive taxonomic classification for metagenomics with Kaiju**<br/>
 Menzel P, Ng KL, Krogh A. · *Nature Communications* · 2016<br/>
 [论文与图表](https://doi.org/10.1038/ncomms11257) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/27071849/) · [开放全文](https://europepmc.org/articles/PMC4833860)
 
 当样本中的生物与已知参考相隔较远，核酸层面的相似性可能降低。Kaiju 将 reads 的翻译结果与蛋白参考比较，利用编码序列中的保守信息寻找分类线索。
+
+![Kaiju 方法概念图](../assets/gallery/kaiju.svg)
+
+AINGS 概念图，沿输入、方法与任务整理阅读线索。
 
 ## 先把问题放在桌上
 

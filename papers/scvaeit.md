@@ -1,12 +1,16 @@
 # scVAEIT：缺整种模态和缺一部分特征，怎样统一表示？
 
-[论文与方法](README.md) · [多模态多组学](../02_多模态多组学/README.md) · [方法对照](compare.md)
+[研究画廊](README.md) · [多模态多组学](../02_多模态多组学/README.md) · [方法对照](compare.md)
 
 **Robust probabilistic modeling for single-cell multimodal mosaic integration and imputation via scVAEIT**<br/>
 Du JH, Cai Z, Roeder K. · *PNAS* · 2022<br/>
 [论文与图表](https://doi.org/10.1073/pnas.2214414119) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/36459654/) · [开放全文](https://europepmc.org/articles/PMC9894175)
 
 不同批次可能测了不同抗体面板，也可能只测了某一类组学。scVAEIT 用显式缺失掩码组织这种 mosaic 数据，并通过条件概率模型学习从可用信息预测目标特征。
+
+![scVAEIT 方法概念图](../assets/gallery/scvaeit.svg)
+
+AINGS 概念图，沿输入、方法与任务整理阅读线索。
 
 ## 先把问题放在桌上
 

@@ -1,12 +1,16 @@
 # DeepARG：怎样把序列相似性变成耐药基因的分类特征？
 
-[论文与方法](README.md) · [检验医学与病原生信](../01_检验医学与病原生信/README.md) · [方法对照](compare.md)
+[研究画廊](README.md) · [检验医学与病原生信](../01_检验医学与病原生信/README.md) · [方法对照](compare.md)
 
 **DeepARG: a deep learning approach for predicting antibiotic resistance genes from metagenomic data**<br/>
 Arango-Argoty G, Garner E, Pruden A et al. · *Microbiome* · 2018<br/>
 [论文与图表](https://doi.org/10.1186/s40168-018-0401-z) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/29391044/) · [开放全文](https://europepmc.org/articles/PMC5796597)
 
 DeepARG 将序列与已知 ARG 的相似性组织成向量，再交给神经网络判断抗生素耐药类别。这篇文章适合连接数据库、比对特征与机器学习，也帮助厘清基因层面的检测任务。
+
+![DeepARG 方法概念图](../assets/gallery/deeparg.svg)
+
+AINGS 概念图，沿输入、方法与任务整理阅读线索。
 
 ## 先把问题放在桌上
 

@@ -1,12 +1,16 @@
 # totalVI：蛋白背景与真实细胞状态，怎样一起建模？
 
-[论文与方法](README.md) · [多模态多组学](../02_多模态多组学/README.md) · [方法对照](compare.md)
+[研究画廊](README.md) · [多模态多组学](../02_多模态多组学/README.md) · [方法对照](compare.md)
 
 **Joint probabilistic modeling of single-cell multi-omic data with totalVI**<br/>
 Gayoso A, Steier Z, Lopez R et al. · *Nature Methods* · 2021<br/>
 [论文与图表](https://doi.org/10.1038/s41592-020-01050-x) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/33589839/) · [开放全文](https://europepmc.org/articles/PMC7954949)
 
 totalVI 为 RNA 与抗体衍生蛋白计数建立联合概率模型。它把细胞状态、测序深度和蛋白背景纳入生成过程，使整合、去噪与后续统计分析能够共享模型中的解释。
+
+![totalVI 方法概念图](../assets/gallery/totalvi.svg)
+
+AINGS 概念图，沿输入、方法与任务整理阅读线索。
 
 ## 先把问题放在桌上
 

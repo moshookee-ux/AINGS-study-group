@@ -1,6 +1,6 @@
 # CZ ID：同一批 reads，怎样连接病原与耐药分析？
 
-[论文与方法](README.md) · [检验医学与病原生信](../01_检验医学与病原生信/README.md) · [首页](../README.md)
+[研究画廊](README.md) · [检验医学与病原生信](../01_检验医学与病原生信/README.md) · [首页](../README.md)
 
 **Simultaneous detection of pathogens and antimicrobial resistance genes with the open source, cloud-based, CZ ID platform**<br/>
 Lu D, Kalantar KL, Glascock AL et al. · *Genome Medicine* · 2025<br/>

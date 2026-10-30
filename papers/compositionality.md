@@ -1,12 +1,16 @@
 # 组成型数据：相对丰度上升，究竟是哪一种变化？
 
-[论文与方法](README.md) · [检验医学与病原生信](../01_检验医学与病原生信/README.md) · [方法对照](compare.md)
+[研究画廊](README.md) · [检验医学与病原生信](../01_检验医学与病原生信/README.md) · [方法对照](compare.md)
 
 **Microbiome Datasets Are Compositional: And This Is Not Optional**<br/>
 Gloor GB, Macklaim JM, Pawlowsky-Glahn V et al. · *Frontiers in Microbiology* · 2017<br/>
 [论文与图表](https://doi.org/10.3389/fmicb.2017.02224) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/29187837/) · [开放全文](https://europepmc.org/articles/PMC5695134)
 
 测序常常给出固定测序深度下的相对组成。Gloor 等人的这篇文章从比例约束出发，解释为何一个特征的数值变化必须放回其他特征与总量中理解，是阅读微生物丰度分析的基础。
+
+![组成型数据 方法概念图](../assets/gallery/compositionality.svg)
+
+AINGS 概念图，沿输入、方法与任务整理阅读线索。
 
 ## 先把问题放在桌上
 

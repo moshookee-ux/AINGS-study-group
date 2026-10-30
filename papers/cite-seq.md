@@ -1,12 +1,16 @@
 # CITE-seq：怎样给同一个细胞同时读出 RNA 与表面蛋白？
 
-[论文与方法](README.md) · [多模态多组学](../02_多模态多组学/README.md) · [方法对照](compare.md)
+[研究画廊](README.md) · [多模态多组学](../02_多模态多组学/README.md) · [方法对照](compare.md)
 
 **Simultaneous epitope and transcriptome measurement in single cells**<br/>
 Stoeckius M, Hafemeister C, Stephenson W et al. · *Nature Methods* · 2017<br/>
 [论文与图表](https://doi.org/10.1038/nmeth.4380) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/28759029/)
 
 CITE-seq 把抗体识别与单细胞转录组测量接在一起。理解这项技术，首先要弄清蛋白信号怎样变成可测序的标签，以及 RNA 与标签怎样归到同一个细胞。
+
+![CITE-seq 方法概念图](../assets/gallery/cite-seq.svg)
+
+AINGS 概念图，沿输入、方法与任务整理阅读线索。
 
 ## 先把问题放在桌上
 

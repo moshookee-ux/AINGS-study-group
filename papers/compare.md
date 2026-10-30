@@ -1,6 +1,6 @@
 # 方法对照：先认清问题，再比较方法
 
-[论文与方法](README.md) · [检验医学与病原生信](../01_检验医学与病原生信/README.md) · [多模态多组学](../02_多模态多组学/README.md)
+[研究画廊](README.md) · [检验医学与病原生信](../01_检验医学与病原生信/README.md) · [多模态多组学](../02_多模态多组学/README.md)
 
 遇到一个新方法，可以先问三个问题：它接收什么数据，借用了什么信息，最后输出什么？下面的对照表方便选阅读入口，也方便整理自己的实验方案。
 
@@ -57,3 +57,25 @@
 | 运行条件 | 使用的数据版本、参数、资源和结果在哪里？ |
 
 可以把填好的表放进[项目与实践](../projects/README.md)，让感兴趣的伙伴接着复现、补充或提出新的比较。
+
+## 从分子到细胞的新增比较
+
+| 研究任务 | 代表工作 | 比较时抓住什么 |
+| --- | --- | --- |
+| 蛋白结构预测与生成 | [AlphaFold2](alphafold2.md) · [ESM-2／ESMFold](esm2.md) · [ESM3](esm3.md) | MSA、单序列表示与多模态条件分别提供什么信息；结构预测和功能实验各验证什么 |
+| DNA 到调控功能 | [Enformer](enformer.md) | 输入范围、预测轨道、留出基因组区段与变异任务 |
+| 细胞表示与预训练 | [Geneformer](geneformer.md) · [scGPT](scgpt.md) · [scFoundation](scfoundation.md) | 排序与表达值怎样编码；预训练和下游适配分别使用什么数据 |
+| 空间相关任务 | [Nicheformer](nicheformer.md) | 表达与技术情境如何输入；空间标签、邻域组成和迁移对象如何定义 |
+| RNA 到蛋白 | [totalVI](totalvi.md) · [CAPTAIN](captain.md) | 配对训练、蛋白背景、目标面板、测试情境与可预测的蛋白词表 |
+| 干预测量与响应预测 | [Perturb-seq](perturbseq.md) · [GEARS](gears.md) | 前者提供实验读出，后者组织预测；检查单基因、组合与未见干预的划分 |
+| 多模态模型设计 | [MFM Perspective](mfm.md) | 观测状态、词元、跨模态关系、知识输入与任务接口 |
+
+## 耐药与微生物组的新增比较
+
+| 代表工作 | 主要输入与输出 | 适合一起核对的内容 |
+| --- | --- | --- |
+| [CARD 2023](card.md) | 耐药本体、参考序列与模型规则，支持 RGI 检测与注释 | 数据库版本、Perfect／Strict 判定与序列上下文 |
+| [AMRFinderPlus](amrfinderplus.md) | 蛋白或核酸序列 → 基因／突变及命中类别 | 输入模式、物种参数、BLAST 与 HMM 使用路径 |
+| [MetaPhlAn 4](metaphlan4.md) | 宏基因组 reads → 物种层次的相对丰度谱 | 标记基因、SGB 参考覆盖与相对组成的解释 |
+
+[回到研究画廊](README.md) · [查找全部文献](catalog.md)

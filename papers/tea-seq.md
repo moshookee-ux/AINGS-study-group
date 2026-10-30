@@ -1,12 +1,16 @@
 # TEA-seq：同一细胞的三种测量怎样彼此补充？
 
-[论文与方法](README.md) · [多模态多组学](../02_多模态多组学/README.md) · [方法对照](compare.md)
+[研究画廊](README.md) · [多模态多组学](../02_多模态多组学/README.md) · [方法对照](compare.md)
 
 **Simultaneous trimodal single-cell measurement of transcripts, epitopes, and chromatin accessibility using TEA-seq**<br/>
 Swanson E, Lord C, Reading J et al. · *eLife* · 2021<br/>
 [论文与图表](https://doi.org/10.7554/elife.63632) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/33835024/) · [开放全文](https://europepmc.org/articles/PMC8034981)
 
 TEA-seq 将转录本、表面蛋白表位与染色质可及性联合测量。它让“多模态”从两张矩阵扩展到三种实验读出，也使样本处理和各模态质量之间的取舍更值得仔细看。
+
+![TEA-seq 方法概念图](../assets/gallery/tea-seq.svg)
+
+AINGS 概念图，沿输入、方法与任务整理阅读线索。
 
 ## 先把问题放在桌上
 

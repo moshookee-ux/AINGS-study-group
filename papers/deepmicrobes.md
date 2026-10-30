@@ -1,12 +1,16 @@
 # DeepMicrobes：短序列的分类信息，能否由网络学出来？
 
-[论文与方法](README.md) · [检验医学与病原生信](../01_检验医学与病原生信/README.md) · [方法对照](compare.md)
+[研究画廊](README.md) · [检验医学与病原生信](../01_检验医学与病原生信/README.md) · [方法对照](compare.md)
 
 **DeepMicrobes: taxonomic classification for metagenomics with deep learning**<br/>
 Liang Q, Bible PW, Liu Y et al. · *NAR Genomics and Bioinformatics* · 2020<br/>
 [论文与图表](https://doi.org/10.1093/nargab/lqaa009) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/33575556/) · [开放全文](https://europepmc.org/articles/PMC7671387)
 
 DeepMicrobes 把短序列转成 k-mer 序列，再学习用于分类的表示。它也引入来自组装基因组的参考信息，适合连着数据库方法一起读，比较显式匹配与监督学习各自使用了什么。
+
+![DeepMicrobes 方法概念图](../assets/gallery/deepmicrobes.svg)
+
+AINGS 概念图，沿输入、方法与任务整理阅读线索。
 
 ## 先把问题放在桌上
 

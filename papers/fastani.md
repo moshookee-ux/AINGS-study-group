@@ -1,6 +1,6 @@
 # FastANI：两个基因组有多相近，怎样高效估计？
 
-[论文与方法](README.md) · [检验医学与病原生信](../01_检验医学与病原生信/README.md) · [方法对照](compare.md)
+[研究画廊](README.md) · [检验医学与病原生信](../01_检验医学与病原生信/README.md) · [方法对照](compare.md)
 
 **High throughput ANI analysis of 90K prokaryotic genomes reveals clear species boundaries**<br/>
 Jain C, Rodriguez-R LM, Phillippy AM et al. · *Nature Communications* · 2018<br/>

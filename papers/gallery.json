@@ -1,0 +1,281 @@
+[
+  {
+    "id": "kraken2",
+    "image": "assets/gallery/kraken2.png",
+    "kind": "paper_figure",
+    "summary": "从 minimizer、紧凑哈希表到分类树，拆开高速序列分类的三步。",
+    "original": "assets/figures/kraken2-fig1.png",
+    "figure": "Fig. 1",
+    "license": "CC BY 4.0",
+    "doi": "10.1186/s13059-019-1891-0",
+    "attribution": "Wood DE et al."
+  },
+  {
+    "id": "centrifuge",
+    "image": "assets/gallery/centrifuge.svg",
+    "kind": "concept_diagram",
+    "summary": "把参考库压进索引，再看序列匹配怎样形成分类与丰度估计。"
+  },
+  {
+    "id": "kaiju",
+    "image": "assets/gallery/kaiju.svg",
+    "kind": "concept_diagram",
+    "summary": "进入氨基酸空间，用蛋白层面的保守性寻找分类线索。"
+  },
+  {
+    "id": "deepmicrobes",
+    "image": "assets/gallery/deepmicrobes.svg",
+    "kind": "concept_diagram",
+    "summary": "k-mer、BiLSTM 与注意力怎样共同学习短序列特征。"
+  },
+  {
+    "id": "bertax",
+    "image": "assets/gallery/bertax.svg",
+    "kind": "concept_diagram",
+    "summary": "从 3-mer 上下文进入分类树，理解层级预测与未见类群。"
+  },
+  {
+    "id": "deeparg",
+    "image": "assets/gallery/deeparg.svg",
+    "kind": "concept_diagram",
+    "summary": "参考序列相似性如何成为神经网络的耐药分类输入。"
+  },
+  {
+    "id": "czid",
+    "image": "assets/gallery/czid.png",
+    "kind": "paper_figure",
+    "summary": "同一批 reads 分别进入组装、物种与耐药分析，再连接结果。",
+    "original": "assets/figures/czid-fig1.png",
+    "figure": "Fig. 1",
+    "license": "CC BY 4.0",
+    "doi": "10.1186/s13073-025-01480-2",
+    "attribution": "Lu D et al."
+  },
+  {
+    "id": "fastani",
+    "image": "assets/gallery/fastani.png",
+    "kind": "paper_figure",
+    "summary": "用片段映射快速估计 ANI，理解基因组相似性及其比较单位。",
+    "original": "assets/figures/fastani-fig1.png",
+    "figure": "Fig. 1",
+    "license": "CC BY 4.0",
+    "doi": "10.1038/s41467-018-07641-9",
+    "attribution": "Jain C et al."
+  },
+  {
+    "id": "decontam",
+    "image": "assets/gallery/decontam.png",
+    "kind": "paper_figure",
+    "summary": "沿着 DNA 浓度、阴性对照和出现频率寻找污染线索。",
+    "original": "assets/figures/decontam-fig1.png",
+    "figure": "Fig. 1",
+    "license": "CC BY 4.0",
+    "doi": "10.1186/s40168-018-0605-2",
+    "attribution": "Davis NM et al."
+  },
+  {
+    "id": "compositionality",
+    "image": "assets/gallery/compositionality.svg",
+    "kind": "concept_diagram",
+    "summary": "用一个两成员例子看清绝对量、相对丰度与总量约束。"
+  },
+  {
+    "id": "cite-seq",
+    "image": "assets/gallery/cite-seq.svg",
+    "kind": "concept_diagram",
+    "summary": "给同一细胞的 RNA 与表面蛋白建立共同条形码。"
+  },
+  {
+    "id": "tea-seq",
+    "image": "assets/gallery/tea-seq.svg",
+    "kind": "concept_diagram",
+    "summary": "把转录、染色质可及性和蛋白测量接到同一个细胞。"
+  },
+  {
+    "id": "wnn",
+    "image": "assets/gallery/wnn.svg",
+    "kind": "concept_diagram",
+    "summary": "逐细胞学习模态权重，再把互补的局部邻域合在一起。"
+  },
+  {
+    "id": "totalvi",
+    "image": "assets/gallery/totalvi.svg",
+    "kind": "concept_diagram",
+    "summary": "共享细胞状态，分别描述 RNA 计数和蛋白背景。"
+  },
+  {
+    "id": "multivi",
+    "image": "assets/gallery/multivi.png",
+    "kind": "paper_figure",
+    "summary": "让配对与非配对数据共同训练，追踪不同观测的重构目标。",
+    "original": "assets/figures/multivi-fig1.png",
+    "figure": "Fig. 1",
+    "license": "CC BY 4.0",
+    "doi": "10.1038/s41592-023-01909-9",
+    "attribution": "Ashuach T et al."
+  },
+  {
+    "id": "glue",
+    "image": "assets/gallery/glue.png",
+    "kind": "paper_figure",
+    "summary": "用特征关系图连接组学；沿原图读编码器、图模型与对齐。",
+    "original": "assets/figures/glue-fig1.png",
+    "figure": "Fig. 1",
+    "license": "CC BY 4.0",
+    "doi": "10.1038/s41587-022-01284-4",
+    "attribution": "Cao ZJ & Gao G"
+  },
+  {
+    "id": "mofa",
+    "image": "assets/gallery/mofa.png",
+    "kind": "paper_figure",
+    "summary": "从因子与载荷出发，寻找不同测量间共享和特有的变化。",
+    "original": "assets/figures/mofa-fig1.png",
+    "figure": "Fig. 1",
+    "license": "CC BY 4.0",
+    "doi": "10.1186/s13059-020-02015-1",
+    "attribution": "Argelaguet R et al."
+  },
+  {
+    "id": "scvaeit",
+    "image": "assets/gallery/scvaeit.svg",
+    "kind": "concept_diagram",
+    "summary": "显式标记缺失，通过条件生成学习跨模态补全。"
+  },
+  {
+    "id": "scgpt",
+    "image": "assets/gallery/scgpt.svg",
+    "kind": "concept_diagram",
+    "summary": "基因身份、表达值和任务信息怎样进入预训练与适配。"
+  },
+  {
+    "id": "scib",
+    "image": "assets/gallery/scib.png",
+    "kind": "paper_figure",
+    "summary": "并列检查批次混合与生物学保留，读懂多目标整合评价。",
+    "original": "assets/figures/scib-fig1.png",
+    "figure": "Fig. 1",
+    "license": "CC BY 4.0",
+    "doi": "10.1038/s41592-021-01336-8",
+    "attribution": "Luecken MD et al."
+  },
+  {
+    "id": "mfm",
+    "image": "assets/gallery/mfm.svg",
+    "kind": "concept_diagram",
+    "summary": "把序列、细胞、知识与实验放进同一张多模态研究蓝图。"
+  },
+  {
+    "id": "alphafold2",
+    "image": "assets/gallery/alphafold2.png",
+    "kind": "paper_figure",
+    "summary": "对照 Evoformer、结构模块和 recycling，看序列怎样通向结构。",
+    "original": "assets/figures/alphafold2-fig1.png",
+    "figure": "Fig. 1",
+    "license": "CC BY 4.0",
+    "doi": "10.1038/s41586-021-03819-2",
+    "attribution": "Jumper J et al."
+  },
+  {
+    "id": "esm2",
+    "image": "assets/gallery/esm2.svg",
+    "kind": "concept_diagram",
+    "summary": "蛋白语言模型学到的表示，怎样支持单序列结构预测。"
+  },
+  {
+    "id": "esm3",
+    "image": "assets/gallery/esm3.svg",
+    "kind": "concept_diagram",
+    "summary": "联合序列、结构与功能条件，理解蛋白生成和实验验证。"
+  },
+  {
+    "id": "enformer",
+    "image": "assets/gallery/enformer.png",
+    "kind": "paper_figure",
+    "summary": "让远距离调控信息进入 DNA 到功能轨道的预测。",
+    "original": "assets/figures/enformer-fig1.png",
+    "figure": "Fig. 1",
+    "license": "CC BY 4.0",
+    "doi": "10.1038/s41592-021-01252-x",
+    "attribution": "Avsec Ž et al."
+  },
+  {
+    "id": "geneformer",
+    "image": "assets/gallery/geneformer.svg",
+    "kind": "concept_diagram",
+    "summary": "从基因排序到上下文表示，再到具体的细胞网络任务。"
+  },
+  {
+    "id": "gears",
+    "image": "assets/gallery/gears.png",
+    "kind": "paper_figure",
+    "summary": "把基因关系和干预关系接入图网络，预测未见组合的响应。",
+    "original": "assets/figures/gears-fig1.png",
+    "figure": "Fig. 1",
+    "license": "CC BY 4.0",
+    "doi": "10.1038/s41587-023-01905-6",
+    "attribution": "Roohani Y et al."
+  },
+  {
+    "id": "perturbseq",
+    "image": "assets/gallery/perturbseq.svg",
+    "kind": "concept_diagram",
+    "summary": "把池化 CRISPR 干预与单细胞表达连接成可读出的实验。"
+  },
+  {
+    "id": "nicheformer",
+    "image": "assets/gallery/nicheformer.png",
+    "kind": "paper_figure",
+    "summary": "从表达与技术情境进入空间相关任务，认识细胞的邻域。",
+    "original": "assets/figures/nicheformer-fig1.png",
+    "figure": "Fig. 1",
+    "license": "CC BY 4.0",
+    "doi": "10.1038/s41592-025-02814-z",
+    "attribution": "Tejada-Lapuerta A et al."
+  },
+  {
+    "id": "captain",
+    "image": "assets/gallery/captain.svg",
+    "kind": "concept_diagram",
+    "summary": "用配对 RNA／蛋白、跨模态注意力与先验预测目标蛋白。"
+  },
+  {
+    "id": "scfoundation",
+    "image": "assets/gallery/scfoundation.svg",
+    "kind": "concept_diagram",
+    "summary": "面向高维表达谱的预训练，连接细胞与基因层面的表示。"
+  },
+  {
+    "id": "card",
+    "image": "assets/gallery/card.png",
+    "kind": "paper_figure",
+    "summary": "连接耐药本体、参考序列和检测规则，读懂 Perfect／Strict 命中。",
+    "original": "assets/figures/card-fig2.jpg",
+    "figure": "Fig. 2",
+    "license": "CC BY 4.0",
+    "doi": "10.1093/nar/gkac920",
+    "attribution": "Alcock BP et al."
+  },
+  {
+    "id": "amrfinderplus",
+    "image": "assets/gallery/amrfinderplus.png",
+    "kind": "paper_figure",
+    "summary": "对照蛋白与核酸两条检测路径，追踪命中类别与判定依据。",
+    "original": "assets/figures/amrfinderplus-fig1.png",
+    "figure": "Fig. 1",
+    "license": "CC BY 4.0",
+    "doi": "10.1038/s41598-021-91456-0",
+    "attribution": "Feldgarden M et al."
+  },
+  {
+    "id": "metaphlan4",
+    "image": "assets/gallery/metaphlan4.png",
+    "kind": "paper_figure",
+    "summary": "从未培养物种的基因组与标记基因，走到样本的相对组成。",
+    "original": "assets/figures/metaphlan4-fig1.png",
+    "figure": "Fig. 1",
+    "license": "CC BY 4.0",
+    "doi": "10.1038/s41587-023-01688-w",
+    "attribution": "Blanco-Míguez A et al."
+  }
+]

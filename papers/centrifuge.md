@@ -1,12 +1,16 @@
 # Centrifuge：参考基因组越来越多，索引怎样装得下？
 
-[论文与方法](README.md) · [检验医学与病原生信](../01_检验医学与病原生信/README.md) · [方法对照](compare.md)
+[研究画廊](README.md) · [检验医学与病原生信](../01_检验医学与病原生信/README.md) · [方法对照](compare.md)
 
 **Centrifuge: rapid and sensitive classification of metagenomic sequences**<br/>
 Kim D, Song L, Breitwieser FP et al. · *Genome Research* · 2016<br/>
 [论文与图表](https://doi.org/10.1101/gr.210641.116) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/27852649/) · [开放全文](https://europepmc.org/articles/PMC5131823)
 
 很多微生物参考基因组彼此相近，重复存下全部序列会增加资源消耗。Centrifuge 从参考库的冗余与文本索引结构入手，让序列分类能利用较大的参考集合。
+
+![Centrifuge 方法概念图](../assets/gallery/centrifuge.svg)
+
+AINGS 概念图，沿输入、方法与任务整理阅读线索。
 
 ## 先把问题放在桌上
 

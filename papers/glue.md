@@ -1,6 +1,6 @@
 # GLUE：没有逐一配对的细胞，怎样连接不同组学？
 
-[论文与方法](README.md) · [多模态多组学](../02_多模态多组学/README.md) · [首页](../README.md)
+[研究画廊](README.md) · [多模态多组学](../02_多模态多组学/README.md) · [首页](../README.md)
 
 **Multi-omics single-cell data integration and regulatory inference with graph-linked embedding**<br/>
 Cao ZJ, Gao G. · *Nature Biotechnology* · 2022<br/>

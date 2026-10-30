@@ -1,6 +1,6 @@
 # decontam：污染线索为什么藏在浓度和阴性对照里？
 
-[论文与方法](README.md) · [检验医学与病原生信](../01_检验医学与病原生信/README.md) · [方法对照](compare.md)
+[研究画廊](README.md) · [检验医学与病原生信](../01_检验医学与病原生信/README.md) · [方法对照](compare.md)
 
 **Simple statistical identification and removal of contaminant sequences in marker-gene and metagenomics data**<br/>
 Davis NM, Proctor DM, Holmes SP et al. · *Microbiome* · 2018<br/>

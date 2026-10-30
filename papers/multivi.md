@@ -1,6 +1,6 @@
 # MultiVI：配对与未配对数据怎样进入同一个模型？
 
-[论文与方法](README.md) · [多模态多组学](../02_多模态多组学/README.md) · [方法对照](compare.md)
+[研究画廊](README.md) · [多模态多组学](../02_多模态多组学/README.md) · [方法对照](compare.md)
 
 **MultiVI: deep generative model for the integration of multimodal data**<br/>
 Ashuach T, Gabitto MI, Koodli RV et al. · *Nature Methods* · 2023<br/>

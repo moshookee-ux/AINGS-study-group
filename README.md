@@ -1,28 +1,29 @@
 # AINGS 学习小组
 
-![AINGS 学习小组：把一个人的积累，变成大家的知识。](assets/aings-cover.svg)
+![AINGS：AI 与生命科学，一起学，一起把知识留下来。](assets/aings-cover.svg)
 
 <p align="center">
-  <a href="#逛逛知识地图">知识目录</a> ·
-  <a href="papers/README.md">论文与方法</a> ·
+  <a href="#逛逛知识地图">知识地图</a> ·
+  <a href="#研究画廊">研究画廊</a> ·
+  <a href="papers/catalog.md">论文索引</a> ·
   <a href="study-path.md">学习导航</a> ·
   <a href="CONTRIBUTING.md">一起共建</a> ·
-  <a href="community.md#加入我们">加入小组</a>
+  <a href="#加入我们">加入小组</a>
 </p>
 
-**作者：贾晓、梅锐翔。** 欢迎每一位贡献者加入，也留下自己的署名。
+**作者：贾晓、梅锐翔。** 和每一位愿意留下笔记、代码与问题的你。
 
-**一起建设一个人人可以学习、人人可以贡献的 AI＋生信知识仓库。**
+读论文时看不懂的一张图，跑分析时卡住的一步，常常也是别人正在找的答案。AINGS 想把这些学习中的积累放在一起，做成一个大家都能查、也都能继续写的 **AI＋生信共享知识仓库**。
 
-我们把读过的资料、想明白的概念、跑通的代码整理在这里。你可以随时来查一个术语、跟算一段公式、读一篇论文；也欢迎把自己的笔记和经验留下来，帮下一位读者更快进入这个领域。
+这里有 **135 篇知识笔记、17 个知识模块、34 篇论文导读**，也有可以跟着手算、运行和修改的完整例子。从病原识别到多模态细胞模型，你可以带着自己的问题来逛，也可以把熟悉的领域展开给大家看。
 
-加入 AINGS 兴趣小组，也可以加入仓库协作。大家一起分享资料、交流问题、寻找合作，把已有内容写得更清楚，也把新的兴趣展开。
+**加入兴趣小组，也可以加入仓库协作。** 我们一起分享资料、维护内容、寻找研究伙伴；新的路线和项目，欢迎你来发起。
 
-[分享一份资料](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=01_resource.yml) · [了解怎样共建](CONTRIBUTING.md) · [加入我们](#加入我们)
+[开始探索](#逛逛知识地图) · [带来一份资料](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=01_resource.yml) · [加入 AINGS](#加入我们)
 
 ## 逛逛知识地图
 
-从样本中的病原线索，到细胞里的多组学信息，这里有两个相互连接的知识入口。可以深入一个主题，也可以带着问题来回查阅；更多路线与内容，欢迎你来展开。
+两个方向并列展开，章节之间也有很多值得来回走走的连接。读到某个模型，可以回来看数学与测量；遇到一个生物问题，也可以顺着目录寻找合适的方法。
 
 <table>
 <tr>
@@ -41,51 +42,201 @@
 </tr>
 </table>
 
-**这里可以找到：** 概念与推导 · 论文导读 · 方法图解 · 完整算例 · 工具与数据 · 项目与合作。
+[![从序列、细胞到样本与干预的研究地图。](assets/research-atlas.svg)](papers/README.md)
 
-![AINGS 共享知识地图：两个平级知识方向，也欢迎更多方向加入。](assets/knowledge-map.svg)
+[打开全部知识目录](#知识目录) · [按背景找学习入口](study-path.md) · [提出一个新的方向](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=03_new_direction.yml)
 
-有一份新的资料清单，或一个想继续研究的问题？欢迎[提出新的方向](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=03_new_direction.yml)，和感兴趣的伙伴一起把它写出来。
+## 研究画廊
 
-## 论文与方法
+先看图，再带着问题进入论文。这里精选了 **16 篇代表性研究**，从序列分类、耐药分析一直到蛋白结构、细胞表示和干预预测。每张卡片都能打开中文导读，继续看方法拆解、读图线索与小练习。
 
-**20 篇独立导读，两个方向各 10 篇。** 从一个研究问题出发，读输入与输出、方法中的关键计算、图里的关系，以及评价结果时该看什么。每篇都连接相关知识章节，配一个可以自己试一试的小练习。
+### 从序列中找到物种线索
 
-![论文与方法：从数据、模型与评价三个角度进入阅读。](assets/papers-cover.svg)
-
-| 从哪类问题进入 | 可以先读这些 | 接着探索 |
-| --- | --- | --- |
-| 序列怎样获得分类与耐药线索？ | [Kraken 2](papers/kraken2.md) · [Kaiju](papers/kaiju.md) · [DeepARG](papers/deeparg.md) | [Centrifuge](papers/centrifuge.md) · [DeepMicrobes](papers/deepmicrobes.md) · [BERTax](papers/bertax.md) |
-| 样本背景和基因组比较怎样解释？ | [CZ ID](papers/czid.md) · [decontam](papers/decontam.md) | [FastANI](papers/fastani.md) · [组成型数据](papers/compositionality.md) |
-| 多种测量怎样进入同一个分析？ | [CITE-seq](papers/cite-seq.md) · [WNN](papers/wnn.md) · [totalVI](papers/totalvi.md) | [TEA-seq](papers/tea-seq.md) · [MultiVI](papers/multivi.md) · [scVAEIT](papers/scvaeit.md) |
-| 先验、预训练与评价怎样连接？ | [GLUE](papers/glue.md) · [scGPT](papers/scgpt.md) | [MOFA+](papers/mofa.md) · [scIB](papers/scib.md) |
-
-[浏览全部论文与阅读地图 →](papers/README.md) · [比较方法的输入、输出与前提](papers/compare.md) · [下载 BibTeX](papers/references.bib)
-
-### 两张图，走进两类问题
+同样是序列，索引、标记基因、蛋白匹配和语言模型提供了不同入口。
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<p><b>CZ ID · 病原与耐药分析</b><br/>Genome Medicine · 2025</p>
-<a href="papers/czid.md"><img src="assets/figures/czid-fig1.png" alt="CZ ID Figure 1：从 reads 预处理到组装、耐药基因和物种分析。" width="600" /></a>
-<p><b>同一批 reads，为什么要走几条分析路径？</b></p>
-<p>分清 reads、contig、物种信息与耐药基因结果。</p>
-<p><a href="papers/czid.md">看原图，读中文线索 →</a></p>
-<sub>Lu et al., Fig. 1 · <a href="https://doi.org/10.1186/s13073-025-01480-2">原文</a> · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></sub>
+<a href="papers/kraken2.md"><img src="assets/gallery/kraken2.png" alt="Kraken 2：从 minimizer、紧凑哈希表到分类树，拆开高速序列分类的三步。" width="600" /></a>
+<p><sub>Genome Biology · 2019 · 序列分类</sub></p>
+<h3><a href="papers/kraken2.md">Kraken 2 →</a></h3>
+<p>从 minimizer、紧凑哈希表到分类树，拆开高速序列分类的三步。</p>
+<p><a href="papers/kraken2.md">读中文导读</a> · <a href="https://doi.org/10.1186/s13059-019-1891-0">原始论文</a></p>
+<sub>Wood DE et al. · Fig. 1 · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="assets/figures/kraken2-fig1.png">大图</a></sub>
 </td>
 <td width="50%" valign="top">
-<p><b>GLUE · 非配对多组学整合</b><br/>Nature Biotechnology · 2022</p>
-<a href="papers/glue.md"><img src="assets/figures/glue-fig1.png" alt="GLUE Figure 1：先验图连接特征表示，组学编码器学习细胞表示，再联合重建与对齐。" width="600" /></a>
-<p><b>没有逐一配对的细胞，怎样连接不同组学？</b></p>
-<p>分清特征图、细胞表示、数据重建与跨模态对齐。</p>
-<p><a href="papers/glue.md">沿着图，拆解方法 →</a></p>
-<sub>Cao &amp; Gao, Fig. 1 · <a href="https://doi.org/10.1038/s41587-022-01284-4">原文</a> · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a><br/>部分素材：<a href="https://smart.servier.com/">Servier Medical Art</a> · <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></sub>
+<a href="papers/metaphlan4.md"><img src="assets/gallery/metaphlan4.png" alt="MetaPhlAn 4：从未培养物种的基因组与标记基因，走到样本的相对组成。" width="600" /></a>
+<p><sub>Nature Biotechnology · 2023 · 微生物组组成</sub></p>
+<h3><a href="papers/metaphlan4.md">MetaPhlAn 4 →</a></h3>
+<p>从未培养物种的基因组与标记基因，走到样本的相对组成。</p>
+<p><a href="papers/metaphlan4.md">读中文导读</a> · <a href="https://doi.org/10.1038/s41587-023-01688-w">原始论文</a></p>
+<sub>Blanco-Míguez A et al. · Fig. 1 · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="assets/figures/metaphlan4-fig1.png">大图</a></sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="papers/kaiju.md"><img src="assets/gallery/kaiju.svg" alt="Kaiju：进入氨基酸空间，用蛋白层面的保守性寻找分类线索。" width="600" /></a>
+<p><sub>Nature Communications · 2016 · 蛋白层分类</sub></p>
+<h3><a href="papers/kaiju.md">Kaiju →</a></h3>
+<p>进入氨基酸空间，用蛋白层面的保守性寻找分类线索。</p>
+<p><a href="papers/kaiju.md">读中文导读</a> · <a href="https://doi.org/10.1038/ncomms11257">原始论文</a></p>
+<sub>AINGS 方法概念图 · <a href="assets/gallery/kaiju.svg">大图</a></sub>
+</td>
+<td width="50%" valign="top">
+<a href="papers/bertax.md"><img src="assets/gallery/bertax.svg" alt="BERTax：从 3-mer 上下文进入分类树，理解层级预测与未见类群。" width="600" /></a>
+<p><sub>PNAS · 2022 · 序列预训练</sub></p>
+<h3><a href="papers/bertax.md">BERTax →</a></h3>
+<p>从 3-mer 上下文进入分类树，理解层级预测与未见类群。</p>
+<p><a href="papers/bertax.md">读中文导读</a> · <a href="https://doi.org/10.1073/pnas.2122636119">原始论文</a></p>
+<sub>AINGS 方法概念图 · <a href="assets/gallery/bertax.svg">大图</a></sub>
 </td>
 </tr>
 </table>
 
-导读中共收录 **8 张论文原图**，可以打开大图慢慢看。原始出处与许可见[图片署名](assets/credits.md)。也欢迎带来一张帮你想通问题的图，写下自己的理解。
+### 让耐药与样本背景有据可查
+
+把数据库、检测规则、序列上下文和样本对照连起来。
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="papers/card.md"><img src="assets/gallery/card.png" alt="CARD 2023：连接耐药本体、参考序列和检测规则，读懂 Perfect／Strict 命中。" width="600" /></a>
+<p><sub>Nucleic Acids Research · 2023 · 耐药数据库</sub></p>
+<h3><a href="papers/card.md">CARD 2023 →</a></h3>
+<p>连接耐药本体、参考序列和检测规则，读懂 Perfect／Strict 命中。</p>
+<p><a href="papers/card.md">读中文导读</a> · <a href="https://doi.org/10.1093/nar/gkac920">原始论文</a></p>
+<sub>Alcock BP et al. · Fig. 2 · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="assets/figures/card-fig2.jpg">大图</a></sub>
+</td>
+<td width="50%" valign="top">
+<a href="papers/amrfinderplus.md"><img src="assets/gallery/amrfinderplus.png" alt="AMRFinderPlus：对照蛋白与核酸两条检测路径，追踪命中类别与判定依据。" width="600" /></a>
+<p><sub>Scientific Reports · 2021 · 耐药检测</sub></p>
+<h3><a href="papers/amrfinderplus.md">AMRFinderPlus →</a></h3>
+<p>对照蛋白与核酸两条检测路径，追踪命中类别与判定依据。</p>
+<p><a href="papers/amrfinderplus.md">读中文导读</a> · <a href="https://doi.org/10.1038/s41598-021-91456-0">原始论文</a></p>
+<sub>Feldgarden M et al. · Fig. 1 · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="assets/figures/amrfinderplus-fig1.png">大图</a></sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="papers/czid.md"><img src="assets/gallery/czid.png" alt="CZ ID：同一批 reads 分别进入组装、物种与耐药分析，再连接结果。" width="600" /></a>
+<p><sub>Genome Medicine · 2025 · 病原与耐药流程</sub></p>
+<h3><a href="papers/czid.md">CZ ID →</a></h3>
+<p>同一批 reads 分别进入组装、物种与耐药分析，再连接结果。</p>
+<p><a href="papers/czid.md">读中文导读</a> · <a href="https://doi.org/10.1186/s13073-025-01480-2">原始论文</a></p>
+<sub>Lu D et al. · Fig. 1 · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="assets/figures/czid-fig1.png">大图</a></sub>
+</td>
+<td width="50%" valign="top">
+<a href="papers/decontam.md"><img src="assets/gallery/decontam.png" alt="decontam：沿着 DNA 浓度、阴性对照和出现频率寻找污染线索。" width="600" /></a>
+<p><sub>Microbiome · 2018 · 污染控制</sub></p>
+<h3><a href="papers/decontam.md">decontam →</a></h3>
+<p>沿着 DNA 浓度、阴性对照和出现频率寻找污染线索。</p>
+<p><a href="papers/decontam.md">读中文导读</a> · <a href="https://doi.org/10.1186/s40168-018-0605-2">原始论文</a></p>
+<sub>Davis NM et al. · Fig. 1 · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="assets/figures/decontam-fig1.png">大图</a></sub>
+</td>
+</tr>
+</table>
+
+### 从分子结构走进细胞情境
+
+比较输入的生物对象，看看预训练与结构设计各自承担什么工作。
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="papers/alphafold2.md"><img src="assets/gallery/alphafold2.png" alt="AlphaFold2：对照 Evoformer、结构模块和 recycling，看序列怎样通向结构。" width="600" /></a>
+<p><sub>Nature · 2021 · 蛋白结构</sub></p>
+<h3><a href="papers/alphafold2.md">AlphaFold2 →</a></h3>
+<p>对照 Evoformer、结构模块和 recycling，看序列怎样通向结构。</p>
+<p><a href="papers/alphafold2.md">读中文导读</a> · <a href="https://doi.org/10.1038/s41586-021-03819-2">原始论文</a></p>
+<sub>Jumper J et al. · Fig. 1 · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="assets/figures/alphafold2-fig1.png">大图</a></sub>
+</td>
+<td width="50%" valign="top">
+<a href="papers/enformer.md"><img src="assets/gallery/enformer.png" alt="Enformer：让远距离调控信息进入 DNA 到功能轨道的预测。" width="600" /></a>
+<p><sub>Nature Methods · 2021 · 序列到功能</sub></p>
+<h3><a href="papers/enformer.md">Enformer →</a></h3>
+<p>让远距离调控信息进入 DNA 到功能轨道的预测。</p>
+<p><a href="papers/enformer.md">读中文导读</a> · <a href="https://doi.org/10.1038/s41592-021-01252-x">原始论文</a></p>
+<sub>Avsec Ž et al. · Fig. 1 · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="assets/figures/enformer-fig1.png">大图</a></sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="papers/geneformer.md"><img src="assets/gallery/geneformer.svg" alt="Geneformer：从基因排序到上下文表示，再到具体的细胞网络任务。" width="600" /></a>
+<p><sub>Nature · 2023 · 细胞预训练</sub></p>
+<h3><a href="papers/geneformer.md">Geneformer →</a></h3>
+<p>从基因排序到上下文表示，再到具体的细胞网络任务。</p>
+<p><a href="papers/geneformer.md">读中文导读</a> · <a href="https://doi.org/10.1038/s41586-023-06139-9">原始论文</a></p>
+<sub>AINGS 方法概念图 · <a href="assets/gallery/geneformer.svg">大图</a></sub>
+</td>
+<td width="50%" valign="top">
+<a href="papers/nicheformer.md"><img src="assets/gallery/nicheformer.png" alt="Nicheformer：从表达与技术情境进入空间相关任务，认识细胞的邻域。" width="600" /></a>
+<p><sub>Nature Methods · 2025 · 空间与细胞模型</sub></p>
+<h3><a href="papers/nicheformer.md">Nicheformer →</a></h3>
+<p>从表达与技术情境进入空间相关任务，认识细胞的邻域。</p>
+<p><a href="papers/nicheformer.md">读中文导读</a> · <a href="https://doi.org/10.1038/s41592-025-02814-z">原始论文</a></p>
+<sub>Tejada-Lapuerta A et al. · Fig. 1 · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="assets/figures/nicheformer-fig1.png">大图</a></sub>
+</td>
+</tr>
+</table>
+
+### 连接模态，也连接干预
+
+图先验、生成模型与跨模态注意力，怎样落到具体的预测任务。
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="papers/glue.md"><img src="assets/gallery/glue.png" alt="GLUE：用特征关系图连接组学；沿原图读编码器、图模型与对齐。" width="600" /></a>
+<p><sub>Nature Biotechnology · 2022 · 图引导整合</sub></p>
+<h3><a href="papers/glue.md">GLUE →</a></h3>
+<p>用特征关系图连接组学；沿原图读编码器、图模型与对齐。</p>
+<p><a href="papers/glue.md">读中文导读</a> · <a href="https://doi.org/10.1038/s41587-022-01284-4">原始论文</a></p>
+<sub>Cao ZJ &amp; Gao G · Fig. 1 · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · 部分素材 <a href="https://smart.servier.com/">Servier Medical Art</a> / <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a> · <a href="assets/figures/glue-fig1.png">大图</a></sub>
+</td>
+<td width="50%" valign="top">
+<a href="papers/multivi.md"><img src="assets/gallery/multivi.png" alt="MultiVI：让配对与非配对数据共同训练，追踪不同观测的重构目标。" width="600" /></a>
+<p><sub>Nature Methods · 2023 · 部分配对整合</sub></p>
+<h3><a href="papers/multivi.md">MultiVI →</a></h3>
+<p>让配对与非配对数据共同训练，追踪不同观测的重构目标。</p>
+<p><a href="papers/multivi.md">读中文导读</a> · <a href="https://doi.org/10.1038/s41592-023-01909-9">原始论文</a></p>
+<sub>Ashuach T et al. · Fig. 1 · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="assets/figures/multivi-fig1.png">大图</a></sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="papers/captain.md"><img src="assets/gallery/captain.svg" alt="CAPTAIN：用配对 RNA／蛋白、跨模态注意力与先验预测目标蛋白。" width="600" /></a>
+<p><sub>Nature Communications · 2026 · RNA－蛋白基础模型</sub></p>
+<h3><a href="papers/captain.md">CAPTAIN →</a></h3>
+<p>用配对 RNA／蛋白、跨模态注意力与先验预测目标蛋白。</p>
+<p><a href="papers/captain.md">读中文导读</a> · <a href="https://doi.org/10.1038/s41467-026-72882-y">原始论文</a></p>
+<sub>AINGS 方法概念图 · <a href="assets/gallery/captain.svg">大图</a></sub>
+</td>
+<td width="50%" valign="top">
+<a href="papers/gears.md"><img src="assets/gallery/gears.png" alt="GEARS：把基因关系和干预关系接入图网络，预测未见组合的响应。" width="600" /></a>
+<p><sub>Nature Biotechnology · 2024 · 扰动预测</sub></p>
+<h3><a href="papers/gears.md">GEARS →</a></h3>
+<p>把基因关系和干预关系接入图网络，预测未见组合的响应。</p>
+<p><a href="papers/gears.md">读中文导读</a> · <a href="https://doi.org/10.1038/s41587-023-01905-6">原始论文</a></p>
+<sub>Roohani Y et al. · Fig. 1 · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="assets/figures/gears-fig1.png">大图</a></sub>
+</td>
+</tr>
+</table>
+
+**还有更多值得一起读的工作：** ESM-2／ESMFold、ESM3、CITE-seq、TEA-seq、WNN、totalVI、scFoundation、scGPT、Perturb-seq、MOFA+、scVAEIT、scIB……
+
+[进入完整画廊 · 34 篇导读 →](papers/README.md) · [查找论文与引用](papers/catalog.md) · [比较方法与数据前提](papers/compare.md)
+
+### 焦点阅读 · 多模态基础模型的研究蓝图
+
+**MFM Perspective · Nature · 2025**
+
+序列、RNA、染色质、蛋白和空间信息，怎样进入可以迁移到不同任务的模型？这篇 Perspective 把统一词元、模态内与跨模态注意力、知识先验和实验反馈放在一起讨论。我们沿着这些连接展开导读，也把相关工作接到具体的知识章节。
+
+[![MFM 计算蓝图：多模态观测、词元、注意力结构、任务接口与实验反馈。](assets/mfm-blueprint.svg)](papers/mfm.md)
+
+[展开 MFM 导读与计算图 →](papers/mfm.md) · [原始论文](https://doi.org/10.1038/s41586-025-08710-y) · [查看大图](assets/mfm-blueprint.svg)
+
+画廊中收录 **15 张论文原图**，另有 **19 张 AINGS 方法概念图**。原图可以放大阅读，出处与许可见[图片署名](assets/credits.md)。如果一张图曾经帮你想通一个问题，也欢迎把它和你的理解一起带来。
 
 ## 带着一个问题开始
 
@@ -134,7 +285,7 @@
 
 ## 一起学习，也一起建设
 
-**共建这个仓库，是小组会持续一起做的事。** 读到好资料，就分享出来；弄懂一个概念，就写下自己的理解；跑通一个方法，就留下代码和经验。大家再一起补充说明、核对来源、更新目录，让这些积累方便查找，也方便后来的人继续完善。
+**这个仓库靠大家一起往前写。** 一处纠错、一份整理好的数据说明、一段跑通的代码，都很有用。还没整理成文章也没关系，可以先在 Issue 里贴出材料或问题，我们再一起补上解释和入口。
 
 我们也会定期分享资料、工具、学术活动与合作信息。讨论中讲清楚的问题、值得收藏的资源、一起做出的算例，都可以整理进仓库。你可以从一处修改开始，也可以带着感兴趣的伙伴维护一个专题。
 
@@ -155,7 +306,7 @@
 
 也欢迎聊聊最近在读什么、想整理哪些资料，或者希望认识什么样的合作伙伴。后续会招募管理者与方向组长，一起照看目录、回应问题、组织内容更新，让更多人能够参与进来。
 
-**这里还会长出什么，欢迎你一起来决定。**
+**下一篇内容，可能就从你的一个问题开始。**
 
 ---
 

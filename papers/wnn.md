@@ -1,12 +1,16 @@
 # WNN：每个细胞都应该使用相同的模态权重吗？
 
-[论文与方法](README.md) · [多模态多组学](../02_多模态多组学/README.md) · [方法对照](compare.md)
+[研究画廊](README.md) · [多模态多组学](../02_多模态多组学/README.md) · [方法对照](compare.md)
 
 **Integrated analysis of multimodal single-cell data**<br/>
 Hao Y, Hao S, Andersen-Nissen E et al. · *Cell* · 2021<br/>
 [论文与图表](https://doi.org/10.1016/j.cell.2021.04.048) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/34062119/) · [开放全文](https://europepmc.org/articles/PMC8238499)
 
 不同细胞中的 RNA 与蛋白可能提供不同程度的区分信息。WNN 从每个细胞的邻域出发学习模态权重，再构建加权近邻图，适合把“融合”理解为局部信息的组合。
+
+![WNN 方法概念图](../assets/gallery/wnn.svg)
+
+AINGS 概念图，沿输入、方法与任务整理阅读线索。
 
 ## 先把问题放在桌上
 

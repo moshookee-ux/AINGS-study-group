@@ -1,6 +1,6 @@
 # MOFA+：哪些变化是多组学共享的，哪些只出现在一层？
 
-[论文与方法](README.md) · [多模态多组学](../02_多模态多组学/README.md) · [方法对照](compare.md)
+[研究画廊](README.md) · [多模态多组学](../02_多模态多组学/README.md) · [方法对照](compare.md)
 
 **MOFA+: a statistical framework for comprehensive integration of multi-modal single-cell data**<br/>
 Argelaguet R, Arnol D, Bredikhin D et al. · *Genome Biology* · 2020<br/>

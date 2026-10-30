@@ -1,12 +1,16 @@
 # scGPT：预训练的细胞表示，怎样接到具体分析任务？
 
-[论文与方法](README.md) · [多模态多组学](../02_多模态多组学/README.md) · [方法对照](compare.md)
+[研究画廊](README.md) · [多模态多组学](../02_多模态多组学/README.md) · [方法对照](compare.md)
 
 **scGPT: toward building a foundation model for single-cell multi-omics using generative AI**<br/>
 Cui H, Wang C, Maan H et al. · *Nature Methods* · 2024<br/>
 [论文与图表](https://doi.org/10.1038/s41592-024-02201-0) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/38409223/) · [作者代码](https://github.com/bowang-lab/scGPT)
 
 scGPT 将基因身份与表达信息放进生成式预训练框架，并探索细胞注释、整合和扰动预测等用途。读这篇论文时，最有帮助的是把预训练、任务适配和评价设置逐一对应。
+
+![scGPT 方法概念图](../assets/gallery/scgpt.svg)
+
+AINGS 概念图，沿输入、方法与任务整理阅读线索。
 
 ## 先把问题放在桌上
 
