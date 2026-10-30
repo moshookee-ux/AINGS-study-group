@@ -6,8 +6,10 @@
 
 ## 当前文件
 
-- `01_测序技术与实验设计.md`
-- `02_reads_contig_ORF_SNP_MAG.md`
-- `03_物种鉴定与新物种判断.md`
-- `04_ARG_毒力与移动遗传元件.md`
-- `05_常用数据库与工具.md`
+- [01_测序技术与实验设计](01_测序技术与实验设计.md)
+- [02_reads_contig_ORF_SNP_MAG](02_reads_contig_ORF_SNP_MAG.md)
+- [03_物种鉴定与新物种判断](03_物种鉴定与新物种判断.md)
+- [04_ARG_毒力与移动遗传元件](04_ARG_毒力与移动遗传元件.md)
+- [05_常用数据库与工具](05_常用数据库与工具.md)
+
+[返回路线 A](../tracks/clinical-bioinformatics.md) · [统一入口](../README.md)
