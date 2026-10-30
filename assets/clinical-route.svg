@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">临床与病原：从样本走向证据</title><desc id="desc">六个相互衔接的问题，对应下方的知识主题。</desc>
+<defs><linearGradient id="hero" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#102c43"/><stop offset="1" stop-color="#101b31"/></linearGradient>
+<linearGradient id="mint" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5ee0bd"/><stop offset="1" stop-color="#91e3df"/></linearGradient>
+<linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a0b8ff"/><stop offset="1" stop-color="#d4bbf7"/></linearGradient>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#8094a6"/></marker></defs>
+<rect x="0" y="0" width="1200" height="650" rx="24" fill="#f6f8fb" stroke="none" />
+<text x="36" y="40" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#50667a" text-anchor="start" letter-spacing="2">AINGS / LEARNING MAP</text>
+<text x="36" y="83" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#10273b" text-anchor="start" >临床与病原：从样本走向证据</text>
+<text x="36" y="116" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >六个相互衔接的问题，对应下方的知识主题。</text>
+<rect x="35" y="162" width="330" height="164" rx="16" fill="#e5f3ef" stroke="#add6cb" />
+<rect x="35" y="180" width="4" height="128" rx="2" fill="#087f78" stroke="none" />
+<text x="57" y="191" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#087f78" text-anchor="start" letter-spacing="1">01 / 样本</text>
+<text x="57" y="224" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#087f78" text-anchor="start" >先理解临床情境</text>
+<text x="57" y="254" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >采样、培养与药敏</text>
+<text x="57" y="280" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >样本部位、污染与定植</text>
+<rect x="435" y="162" width="330" height="164" rx="16" fill="#e5f3ef" stroke="#add6cb" />
+<rect x="435" y="180" width="4" height="128" rx="2" fill="#087f78" stroke="none" />
+<text x="457" y="191" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#087f78" text-anchor="start" letter-spacing="1">02 / 测量</text>
+<text x="457" y="224" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#087f78" text-anchor="start" >读懂测序数据</text>
+<text x="457" y="254" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >reads、contig、ORF</text>
+<text x="457" y="280" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >SNP、MAG 与实验设计</text>
+<rect x="835" y="162" width="330" height="164" rx="16" fill="#e5f3ef" stroke="#add6cb" />
+<rect x="835" y="180" width="4" height="128" rx="2" fill="#087f78" stroke="none" />
+<text x="857" y="191" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#087f78" text-anchor="start" letter-spacing="1">03 / 证据</text>
+<text x="857" y="224" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#087f78" text-anchor="start" >分类与功能如何判断</text>
+<text x="857" y="254" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >物种、耐药与毒力</text>
+<text x="857" y="280" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >参考数据库与基因组上下文</text>
+<rect x="835" y="382" width="330" height="164" rx="16" fill="#e5f3ef" stroke="#add6cb" />
+<rect x="835" y="400" width="4" height="128" rx="2" fill="#087f78" stroke="none" />
+<text x="857" y="411" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#087f78" text-anchor="start" letter-spacing="1">04 / 数据</text>
+<text x="857" y="444" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#087f78" text-anchor="start" >处理质量与标签</text>
+<text x="857" y="474" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >丰度、组成与批次</text>
+<text x="857" y="500" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >宿主背景、数据划分</text>
+<rect x="435" y="382" width="330" height="164" rx="16" fill="#e5f3ef" stroke="#add6cb" />
+<rect x="435" y="400" width="4" height="128" rx="2" fill="#087f78" stroke="none" />
+<text x="457" y="411" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#087f78" text-anchor="start" letter-spacing="1">05 / 方法</text>
+<text x="457" y="444" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#087f78" text-anchor="start" >把问题写成任务</text>
+<text x="457" y="474" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >比对、组装、k-mer</text>
+<text x="457" y="500" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >输入、输出与比较方法</text>
+<rect x="35" y="382" width="330" height="164" rx="16" fill="#e5f3ef" stroke="#add6cb" />
+<rect x="35" y="400" width="4" height="128" rx="2" fill="#087f78" stroke="none" />
+<text x="57" y="411" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#087f78" text-anchor="start" letter-spacing="1">06 / 解释</text>
+<text x="57" y="444" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#087f78" text-anchor="start" >评价模型与证据</text>
+<text x="57" y="474" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >分类表现、概率校准</text>
+<text x="57" y="500" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >未知对象与结果复核</text>
+<path d="M 366 244 L 425 244" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M 766 244 L 825 244" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M 1000 327 L 1000 372" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M 835 464 L 776 464" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M 435 464 L 376 464" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<rect x="35" y="579" width="1130" height="42" rx="12" fill="#eaf0f5" stroke="none" />
+<text x="600" y="607" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="500" fill="#50667a" text-anchor="middle" >随时查阅：术语、参考资料与专题索引</text>
+</svg>

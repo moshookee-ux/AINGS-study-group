@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="790" viewBox="0 0 1200 790" role="img" aria-labelledby="title desc">
+<title id="title">主动学习与实验闭环</title><desc id="desc">已有测量支持模型与不确定性估计；模型引导候选选择和实验；新增证据用于更新模型，独立验证检验结果。</desc>
+<defs><linearGradient id="hero" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#102c43"/><stop offset="1" stop-color="#101b31"/></linearGradient>
+<linearGradient id="mint" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5ee0bd"/><stop offset="1" stop-color="#91e3df"/></linearGradient>
+<linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a0b8ff"/><stop offset="1" stop-color="#d4bbf7"/></linearGradient>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#8094a6"/></marker></defs>
+<rect x="0" y="0" width="1200" height="790" rx="24" fill="#f6f8fb" stroke="none" />
+<text x="36" y="40" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#50667a" text-anchor="start" letter-spacing="2">AINGS / EXPERIMENT LOOP</text>
+<text x="36" y="83" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#10273b" text-anchor="start" >让下一次实验回应当前的问题</text>
+<text x="36" y="116" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >沿选择、测量与更新的循环积累证据，并保留独立验证。</text>
+<rect x="35" y="172" width="330" height="139" rx="16" fill="#ffffff" stroke="#d5dfe7" />
+<rect x="35" y="190" width="4" height="103" rx="2" fill="#10273b" stroke="none" />
+<text x="57" y="201" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#10273b" text-anchor="start" letter-spacing="1">01 / DATA</text>
+<text x="57" y="234" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#10273b" text-anchor="start" >已有测量</text>
+<text x="57" y="264" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >当前可用的数据与条件</text>
+<rect x="435" y="172" width="330" height="139" rx="16" fill="#eeeffb" stroke="#c7c9ec" />
+<rect x="435" y="190" width="4" height="103" rx="2" fill="#4e55ad" stroke="none" />
+<text x="457" y="201" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#4e55ad" text-anchor="start" letter-spacing="1">02 / MODEL</text>
+<text x="457" y="234" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#4e55ad" text-anchor="start" >模型与不确定性</text>
+<text x="457" y="264" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >当前预测与尚待了解的区域</text>
+<rect x="835" y="172" width="330" height="139" rx="16" fill="#fff4e1" stroke="#e8d2aa" />
+<rect x="835" y="190" width="4" height="103" rx="2" fill="#97601d" stroke="none" />
+<text x="857" y="201" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#97601d" text-anchor="start" letter-spacing="1">03 / SELECT</text>
+<text x="857" y="234" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#97601d" text-anchor="start" >候选条件与选择</text>
+<text x="857" y="264" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >决定下一批值得测量的条件</text>
+<path d="M 365 242 L 425 242" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M 765 242 L 825 242" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M 1000 311 L 1000 384" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<rect x="835" y="393" width="330" height="139" rx="16" fill="#e5f3ef" stroke="#add6cb" />
+<rect x="835" y="411" width="4" height="103" rx="2" fill="#087f78" stroke="none" />
+<text x="857" y="422" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#087f78" text-anchor="start" letter-spacing="1">04 / MEASURE</text>
+<text x="857" y="455" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#087f78" text-anchor="start" >实验测量</text>
+<text x="857" y="485" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >获得候选条件的真实观测</text>
+<rect x="435" y="393" width="330" height="139" rx="16" fill="#eeeffb" stroke="#c7c9ec" />
+<rect x="435" y="411" width="4" height="103" rx="2" fill="#4e55ad" stroke="none" />
+<text x="457" y="422" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#4e55ad" text-anchor="start" letter-spacing="1">05 / UPDATE</text>
+<text x="457" y="455" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#4e55ad" text-anchor="start" >新增证据与模型更新</text>
+<text x="457" y="485" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >把新测量加入下一轮学习</text>
+<path d="M 835 462 L 775 462" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M 600 393 L 600 321" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M 1000 532 L 1000 605" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<rect x="835" y="614" width="330" height="139" rx="16" fill="#ffffff" stroke="#d5dfe7" />
+<rect x="835" y="632" width="4" height="103" rx="2" fill="#10273b" stroke="none" />
+<text x="857" y="643" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#10273b" text-anchor="start" letter-spacing="1">VALIDATE</text>
+<text x="857" y="676" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#10273b" text-anchor="start" >独立验证</text>
+<text x="857" y="706" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >检查留出条件中的表现</text>
+<text x="53" y="441" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="600" fill="#10273b" text-anchor="start" >选择 → 实验 → 更新</text>
+<text x="53" y="482" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#50667a" text-anchor="start" >每轮补充新的观测，</text>
+<text x="53" y="516" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#50667a" text-anchor="start" >让研究问题逐步具体。</text>
+</svg>

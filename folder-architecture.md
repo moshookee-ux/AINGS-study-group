@@ -1,6 +1,6 @@
 # 仓库导航
 
-[返回首页](README.md) · [一起维护仓库](CONTRIBUTING.md)
+[返回首页](README.md) · [一起维护仓库](CONTRIBUTING.md) · [论文图解](papers/README.md)
 
 想查知识，可以从对应目录进入；想补充资料或提出新方向，也能在这里找到入口。
 

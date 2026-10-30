@@ -1,6 +1,6 @@
 # 参考资料
 
-[统一入口](README.md) · [学习路径](study-path.md) · [专题索引](topics.md)
+[统一入口](README.md) · [学习路径](study-path.md) · [专题索引](topics.md) · [论文图解](papers/README.md)
 
 这里汇集论文、综述、教材、工具和数据入口。读到有帮助的内容，欢迎分享链接和使用体会，或补充适合一起阅读的资料。
 

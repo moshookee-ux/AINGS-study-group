@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1000" viewBox="0 0 1200 1000" role="img" aria-labelledby="title desc">
+<title id="title">病原分析中的三类证据</title><desc id="desc">质量检查之后，分类、耐药与宿主情境沿平级路径组织；分类与耐药分别形成证据，再结合宿主情境进行综合解释。</desc>
+<defs><linearGradient id="hero" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#102c43"/><stop offset="1" stop-color="#101b31"/></linearGradient>
+<linearGradient id="mint" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5ee0bd"/><stop offset="1" stop-color="#91e3df"/></linearGradient>
+<linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a0b8ff"/><stop offset="1" stop-color="#d4bbf7"/></linearGradient>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#8094a6"/></marker></defs>
+<rect x="0" y="0" width="1200" height="1000" rx="24" fill="#f6f8fb" stroke="none" />
+<text x="36" y="40" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#50667a" text-anchor="start" letter-spacing="2">AINGS / EVIDENCE GRAPH</text>
+<text x="36" y="83" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#10273b" text-anchor="start" >三类证据，放回同一个样本理解</text>
+<text x="36" y="116" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >每条路径都说明：观察到了什么，这些观察支持怎样的判断。</text>
+<rect x="300" y="151" width="600" height="104" rx="16" fill="#ffffff" stroke="#d5dfe7" />
+<rect x="300" y="169" width="4" height="68" rx="2" fill="#10273b" stroke="none" />
+<text x="322" y="180" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#10273b" text-anchor="start" letter-spacing="1">INPUT / 研究对象</text>
+<text x="322" y="213" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#10273b" text-anchor="start" >样本、实验记录与序列数据</text>
+<path d="M 600 255 L 600 284" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<rect x="300" y="293" width="600" height="104" rx="16" fill="#ffffff" stroke="#d5dfe7" />
+<rect x="300" y="311" width="4" height="68" rx="2" fill="#10273b" stroke="none" />
+<text x="322" y="322" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#10273b" text-anchor="start" letter-spacing="1">QUALITY / 分析前提</text>
+<text x="322" y="355" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#10273b" text-anchor="start" >质量与背景检查</text>
+<path d="M 600 397 L 600 425 L 202 425 L 202 456" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M 600 397 L 600 425 L 600 425 L 600 456" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M 600 397 L 600 425 L 998 425 L 998 456" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<rect x="35" y="465" width="335" height="144" rx="16" fill="#e5f3ef" stroke="#add6cb" />
+<rect x="35" y="483" width="4" height="108" rx="2" fill="#087f78" stroke="none" />
+<text x="57" y="494" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#087f78" text-anchor="start" letter-spacing="1">01 / 分类证据</text>
+<text x="57" y="527" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#087f78" text-anchor="start" >物种与序列的关系</text>
+<text x="57" y="557" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >参考匹配、组装与系统发育</text>
+<rect x="433" y="465" width="335" height="144" rx="16" fill="#eeeffb" stroke="#c7c9ec" />
+<rect x="433" y="483" width="4" height="108" rx="2" fill="#4e55ad" stroke="none" />
+<text x="455" y="494" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#4e55ad" text-anchor="start" letter-spacing="1">02 / 耐药相关证据</text>
+<text x="455" y="527" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#4e55ad" text-anchor="start" >基因、变异与上下文</text>
+<text x="455" y="557" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >ARG、变异与基因组位置</text>
+<rect x="831" y="465" width="335" height="144" rx="16" fill="#fff4e1" stroke="#e8d2aa" />
+<rect x="831" y="483" width="4" height="108" rx="2" fill="#97601d" stroke="none" />
+<text x="853" y="494" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#97601d" text-anchor="start" letter-spacing="1">03 / 宿主与样本情境</text>
+<text x="853" y="527" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#97601d" text-anchor="start" >结果出现在哪里</text>
+<text x="853" y="557" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >样本部位、状态与其他检测</text>
+<path d="M 202 609 L 202 650" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M 600 609 L 600 650" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<rect x="35" y="660" width="335" height="139" rx="16" fill="#e5f3ef" stroke="#add6cb" />
+<rect x="35" y="678" width="4" height="103" rx="2" fill="#087f78" stroke="none" />
+<text x="57" y="689" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#087f78" text-anchor="start" letter-spacing="1">分类结果</text>
+<text x="57" y="722" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#087f78" text-anchor="start" >物种识别</text>
+<text x="57" y="752" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >或未知类群候选</text>
+<rect x="433" y="660" width="335" height="139" rx="16" fill="#eeeffb" stroke="#c7c9ec" />
+<rect x="433" y="678" width="4" height="103" rx="2" fill="#4e55ad" stroke="none" />
+<text x="455" y="689" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#4e55ad" text-anchor="start" letter-spacing="1">证据对照</text>
+<text x="455" y="722" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#4e55ad" text-anchor="start" >归属与机制假设</text>
+<text x="455" y="752" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >与药敏表型等资料对照</text>
+<path d="M 998 609 L 998 835 L 600 835 L 600 867" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M 202 799 L 202 835 L 600 835" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 600 799 L 600 835" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="220" y="877" width="760" height="92" rx="16" fill="#10273b" stroke="#10273b" />
+<rect x="220" y="895" width="4" height="56" rx="2" fill="#ffffff" stroke="none" />
+<text x="242" y="906" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#ffffff" text-anchor="start" letter-spacing="1">SYNTHESIS / 汇总</text>
+<text x="242" y="939" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#ffffff" text-anchor="start" >综合解释与需要复核的问题</text>
+</svg>
