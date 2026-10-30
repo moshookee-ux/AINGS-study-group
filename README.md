@@ -1,6 +1,6 @@
 # AINGS 学习小组
 
-![AINGS：AI 与生命科学，一起学，一起把知识留下来。](assets/aings-cover.svg)
+![AINGS：AI＋生信，一起学，一起把知识留下来。](assets/aings-cover.svg)
 
 <p align="center">
   <a href="#逛逛知识地图">知识地图</a> ·
