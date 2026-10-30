@@ -2,7 +2,7 @@
 
 [返回首页](README.md) · [一起维护仓库](CONTRIBUTING.md) · [论文图解](papers/README.md)
 
-想查知识，可以从对应目录进入；想补充资料或提出新方向，也能在这里找到入口。
+这里是大家共同维护的 AI＋生信知识仓库。任何人都可以从目录里学习，也欢迎分享自己的资料、补充内容或展开新方向。
 
 | 你想做什么 | 去哪里 |
 | --- | --- |
@@ -13,6 +13,8 @@
 | 查论文、工具和数据入口 | [参考资料](reference-index.md) |
 | 分享项目、寻找合作伙伴 | [合作信息与实践](projects/README.md) |
 | 补充内容、修正问题 | [共建指南](CONTRIBUTING.md) |
+| 分享自己的笔记、教程、代码或发现的资料 | [资料分享](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=01_resource.yml) |
+| 加入兴趣小组，参与仓库维护 | [加入小组与仓库协作](CONTRIBUTING.md#加入小组也加入仓库协作) |
 | 展开一个新的知识方向 | [提出新方向](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=03_new_direction.yml) |
 
 每个知识模块都有主题目录，主题页也连接了相关内容和前后篇。可以沿着一个问题继续查阅，也可以把新的解释、例子和资料补进来。

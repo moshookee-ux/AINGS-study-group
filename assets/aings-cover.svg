@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="570" viewBox="0 0 1280 570" role="img" aria-labelledby="title desc">
-<title id="title">AINGS 学习小组：从一个问题出发，把彼此的知识连起来</title><desc id="desc">以细胞、数据矩阵和知识网络为意象的概念插画；检验医学与病原生信、多模态多组学共同连接到 AI 与生物信息学。</desc>
+<title id="title">AINGS 学习小组：共建 AI＋生信知识库，让每一份分享都能留下来</title><desc id="desc">以细胞、数据矩阵和知识网络为意象的概念插画；检验医学与病原生信、多模态多组学共同连接到 AI 与生物信息学。</desc>
 <defs><linearGradient id="hero" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#102c43"/><stop offset="1" stop-color="#101b31"/></linearGradient>
 <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5ee0bd"/><stop offset="1" stop-color="#91e3df"/></linearGradient>
 <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a0b8ff"/><stop offset="1" stop-color="#d4bbf7"/></linearGradient>
@@ -328,19 +328,19 @@
 <circle cx="1220" cy="460" r="1" fill="#6c879f" stroke="none" stroke-width="1" opacity="0.18"/>
 <circle cx="1220" cy="490" r="1" fill="#6c879f" stroke="none" stroke-width="1" opacity="0.18"/>
 <circle cx="1220" cy="520" r="1" fill="#6c879f" stroke="none" stroke-width="1" opacity="0.18"/>
-<text x="58" y="62" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="16" font-weight="600" fill="#a6c6d7" text-anchor="start" letter-spacing="2">AI + BIOINFORMATICS  /  OPEN KNOWLEDGE</text>
+<text x="58" y="62" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="16" font-weight="600" fill="#a6c6d7" text-anchor="start" letter-spacing="2">AI + BIOINFORMATICS  /  SHARED KNOWLEDGE</text>
 <text x="54" y="184" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="110" font-weight="750" fill="#ffffff" text-anchor="start" letter-spacing="-3">AINGS</text>
 <text x="61" y="242" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="39" font-weight="600" fill="#ffffff" text-anchor="start" letter-spacing="6">学习小组</text>
 <rect x="60" y="278" width="56" height="4" rx="2" fill="#74e2c4" stroke="none" />
-<text x="60" y="336" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="34" font-weight="500" fill="#e6f1f6" text-anchor="start" >从一个问题出发，</text>
-<text x="60" y="386" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="34" font-weight="500" fill="#e6f1f6" text-anchor="start" >把彼此的知识连起来。</text>
+<text x="60" y="336" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="34" font-weight="500" fill="#e6f1f6" text-anchor="start" >共建 AI＋生信知识库</text>
+<text x="60" y="386" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="34" font-weight="500" fill="#e6f1f6" text-anchor="start" >让每一份分享，都能留下来。</text>
 <rect x="60" y="441" width="170" height="42" rx="21" fill="#1a344b" stroke="#315066" />
 <text x="145.0" y="468" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="500" fill="#70dfc6" text-anchor="middle" >检验与病原生信</text>
 <rect x="246" y="441" width="160" height="42" rx="21" fill="#1a344b" stroke="#315066" />
 <text x="326.0" y="468" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="500" fill="#bec5ff" text-anchor="middle" >多模态多组学</text>
 <rect x="422" y="441" width="128" height="42" rx="21" fill="#1a344b" stroke="#315066" />
 <text x="486.0" y="468" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="500" fill="#ffd49c" text-anchor="middle" >更多可能</text>
-<text x="60" y="531" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#a6c6d7" text-anchor="start" >一起学习 · 分享资料 · 连接伙伴 · 共建知识</text>
+<text x="60" y="531" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#a6c6d7" text-anchor="start" >公开学习 · 分享资料 · 共同维护 · 持续完善</text>
 <path d="M 754 178 C 817 178 783 293 863 293" fill="none" stroke="#6ddfc3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 <path d="M 754 373 C 815 373 794 293 863 293" fill="none" stroke="#a5b9ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 <path d="M 978 293 C 1032 293 1014 216 1080 216" fill="none" stroke="#9db7cc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />

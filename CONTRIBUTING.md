@@ -2,13 +2,13 @@
 
 [返回首页](README.md) · [加入小组](community.md#加入我们) · [看看大家在聊什么](https://github.com/moshookee-ux/AINGS-study-group/issues)
 
-欢迎一起维护这个仓库。你读懂的一段推导、试过的一种工具，甚至让你卡住的一句话，都可能帮我们把内容写得更好。
+这个 AI＋生信共享知识仓库向所有人开放，欢迎每一位读者成为贡献者。你读懂的一段推导、试过的一种工具、整理过的一份笔记，甚至让你卡住的一句话，都可以成为大家一起完善内容的起点。
 
 ## 想做什么，就从这里开始
 
 | 你想带来什么 | 可以怎么做 |
 | --- | --- |
-| 一篇论文、一个工具或一份教程 | [推荐资料](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=01_resource.yml)，附上链接，说说为什么想分享 |
+| 自己的笔记、教程、代码，或发现的论文、工具与数据集 | [分享资料](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=01_resource.yml)，贴上内容或链接，说说为什么想分享 |
 | 一个问题、一处错误或一段更清楚的解释 | [补充与修正内容](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=02_content.yml)，告诉大家在哪一页、想改什么 |
 | 一个目录里还没有的方向 | [提出新方向](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=03_new_direction.yml)，带着问题或几份材料来聊聊 |
 | 一个想找人一起做的项目 | [分享合作信息](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=04_collaboration.yml)，介绍已有基础和希望一起探索的内容 |
@@ -17,9 +17,17 @@ Issue 可以理解为仓库里的公开交流帖。你可以发起话题，也�
 
 ## 想直接改一页内容
 
-在对应文件中整理好修改，通过 Pull Request 提交。Pull Request 就是一份修改建议，大家可以看到具体改了哪里，讨论后把它合并进仓库。
+修改现有页面，或把自己的笔记、教程和代码放到相关主题下，再在目录中补上入口，通过 Pull Request 提交。Pull Request 就是一份修改建议，大家可以看到具体改了哪里，讨论后把它合并进仓库。
+
+任何人都可以先 Fork 一份仓库，在自己的副本里整理内容，再提交 Pull Request。第一次操作时，可以参考 GitHub 的[贡献入门说明](https://docs.github.com/en/pull-requests/how-tos/work-with-forks/fork-a-repo?tool=webui)。
 
 一次改清楚一个问题就很好：修复链接、补一个例子、解释一个缩写，或者把跑通的代码和结果写下来。第一次尝试时，也可以先在 Issue 里贴出文字和建议，我们一起把它放到合适的位置。
+
+## 加入小组，也加入仓库协作
+
+想持续和大家一起维护，可以联系**梅锐翔或贾晓**加入兴趣小组，并提供 **GitHub 用户名**。我们会安排仓库协作邀请，接受邀请后，就可以和伙伴一起整理资料、更新页面、完善目录。
+
+可以认领自己熟悉的主题，也可以和其他成员一起展开新方向。读者提出的问题、成员分享的资料和讨论中形成的解释，都值得有人接着整理；你愿意一起做哪一部分，就从那里开始。
 
 ## 新的方向，也欢迎你来展开
 

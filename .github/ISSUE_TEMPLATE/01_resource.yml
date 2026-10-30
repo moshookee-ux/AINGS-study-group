@@ -1,12 +1,12 @@
-name: 推荐一份资料
-description: 论文、工具、数据集、教程，或你觉得值得分享的内容。
+name: 分享一份资料
+description: 你的笔记、教程、代码，或想推荐的论文、工具与数据集。
 title: "[资料] "
 body:
   - type: textarea
     id: resource
     attributes:
       label: 想分享什么
-      description: 写下名称和原始链接。
+      description: 贴上资料链接或你整理的内容。分享自己的笔记、教程和代码也欢迎。
     validations:
       required: true
   - type: textarea
