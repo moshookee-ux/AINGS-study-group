@@ -1,0 +1,21 @@
+name: 分享合作信息
+description: 介绍项目想法、正在尝试的工作，或想认识的伙伴。
+title: "[合作] "
+body:
+  - type: textarea
+    id: project
+    attributes:
+      label: 想做什么
+      description: 介绍研究问题、项目想法或合作信息，并附上已有的项目链接。
+    validations:
+      required: true
+  - type: textarea
+    id: progress
+    attributes:
+      label: 已有哪些基础
+      description: 可以说说资料、数据、代码、实践经验或当前进展。
+  - type: textarea
+    id: partners
+    attributes:
+      label: 希望怎样一起参与
+      description: 想认识什么背景的伙伴？可以从哪件事开始？也可以直接在这条话题下交流。

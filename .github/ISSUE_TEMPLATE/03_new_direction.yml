@@ -1,0 +1,21 @@
+name: 一起展开一个新方向
+description: 带着研究问题、资料或初步笔记，邀请伙伴一起探索。
+title: "[新方向] "
+body:
+  - type: textarea
+    id: direction
+    attributes:
+      label: 你想一起了解什么
+      description: 介绍这个方向，或者你最想弄明白的问题。
+    validations:
+      required: true
+  - type: textarea
+    id: starting_point
+    attributes:
+      label: 可以从哪里开始
+      description: 几篇论文、一份笔记、一个工具或一个算例都可以。
+  - type: textarea
+    id: together
+    attributes:
+      label: 想和伙伴一起做什么
+      description: 比如交换资料、整理知识、跑一个例子，或继续提出问题。

@@ -1,44 +1,51 @@
 # AINGS 学习小组
 
-**AI＋生物信息学｜知识学习、资料分享与合作交流**
+**AI＋生物信息学｜一起学习，一起把这个仓库写下去。**
 
-**发起者：梅锐翔、贾晓。** 后续将招募管理者与各方向组长，一起整理知识、分享资料和连接合作机会。
+**作者：梅锐翔、贾晓。** 欢迎你一起补充、修正和继续展开这里的内容。
 
-[小组介绍与加入](community.md) · [学习路径](study-path.md) · [专题索引](topics.md) · [参考资料](reference-index.md) · [合作信息与实践](projects/README.md)
+[加入小组](community.md#加入我们) · [一起维护仓库](CONTRIBUTING.md) · [推荐资料](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=01_resource.yml) · [提出新方向](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=03_new_direction.yml) · [寻找合作](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=04_collaboration.yml)
 
-AINGS 汇集关注人工智能与生物信息学的伙伴。我们从各自正在读、正在尝试和正在思考的内容出发，分享论文、数据、工具、学术活动和项目想法，让算法、生命科学与医学背景的认识彼此连接。
+AINGS 是一个关注 AI 与生物信息学的兴趣小组。我们想找一些有共同兴趣的伙伴，分享读到的好论文，聊聊数据和工具使用中的发现，也把研究问题和合作想法带到一起。
 
-知识内容分为两条主线：**检验医学与病原生信**、**多模态多组学**。两条主线各自展开基础概念、数据问题、方法与应用，共同构成小组的知识目录。
+这个仓库欢迎大家共同维护。读到一个没讲清楚的概念，可以补一个例子；发现一份好资料，可以加上链接和推荐理由；正在尝试一个方法，也可以留下代码和自己的理解。你解决过的小问题，也许正好能帮到下一位同学。
 
-## 两条知识主线
+## 这里可以一起做什么
 
-| 主线 | 核心问题 | 内容入口 |
-| --- | --- | --- |
-| **[检验医学与病原生信](01_检验医学与病原生信/README.md)** | 临床样本如何形成测序数据，如何组织物种、耐药与宿主相关证据，怎样设计和评价计算任务 | 4 个模块、16 篇主题笔记，以及专题与参考资料 |
-| **[多模态多组学](02_多模态多组学/README.md)** | 生物对象如何变成不同模态的测量，模型怎样表示和融合信息，如何迁移、评价并解释结果 | 13 个模块、119 篇主题页面，以及公式、算例、自检、术语和参考资料 |
+- **一起学：**交流论文、概念和实践中的问题，听听不同背景的伙伴怎样理解。
+- **一起分享：**定期整理有用的资料、工具、学术活动和合作信息，也欢迎随时推荐新发现。
+- **一起建设：**完善笔记、修正错误、补充算例，或者把自己感兴趣的新方向展开成一组内容。
+
+## 逛逛知识目录
+
+仓库里已有检验医学与病原生信、多模态多组学两个方向的内容。可以按自己的问题来回查阅，也欢迎带来其他方向，让目录随着大家的兴趣继续长出来。
+
+| 想了解什么 | 从这里看看 |
+| --- | --- |
+| 样本、测序、物种、耐药与计算任务 | [检验医学与病原生信](01_检验医学与病原生信/README.md) |
+| 生物测量、数据表示、神经网络、融合与评价 | [多模态多组学](02_多模态多组学/README.md) |
+| 按问题或已有背景找资料 | [学习导航](study-path.md)、[专题索引](topics.md)、[参考资料](reference-index.md) |
+| 想把新的兴趣方向写进来 | [提出一个新方向](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=03_new_direction.yml)，从问题、笔记或资料清单开始 |
 
 ```mermaid
 flowchart TB
-    E["AINGS 学习小组<br/>AI＋生物信息学"] --> A["检验医学<br/>病原生信"]
-    E --> B["多模态<br/>多组学"]
-    A --> A1["临床与生物样本"]
-    A1 --> A2["测序与生信数据"]
-    A2 --> A3["统计与数据质量"]
-    A3 --> A4["方法、任务与评价"]
-    B --> B1["生物对象与测量"]
-    B1 --> B2["数据处理与数学"]
-    B2 --> B3["神经网络与融合"]
-    B3 --> B4["迁移、评价与应用"]
-    A4 --> O["学习与资料分享<br/>研究与合作信息"]
-    B4 --> O
-    classDef entry fill:#102f49,color:#fff,stroke:#102f49;
+    G["AINGS 学习小组<br/>AI＋生物信息学"] --> A["检验医学<br/>病原生信"]
+    G --> B["多模态<br/>多组学"]
+    G --> C["更多方向<br/>等你一起展开"]
+    A --> K["一起维护知识资料"]
+    B --> K
+    C --> K
+    K --> S["一起学习与实践<br/>交流研究与合作"]
+    classDef group fill:#102f49,color:#fff,stroke:#102f49;
+    classDef clinical fill:#e6f4f3,color:#125b57,stroke:#39a69c;
+    classDef omics fill:#edf0ff,color:#343e83,stroke:#818ed2;
+    classDef new fill:#fff4df,color:#80571a,stroke:#d5ae59;
     classDef shared fill:#eef3f7,color:#102f49,stroke:#91a8b9;
-    classDef trackA fill:#e6f4f3,color:#125b57,stroke:#39a69c;
-    classDef trackB fill:#edf0ff,color:#343e83,stroke:#818ed2;
-    class E entry;
-    class O shared;
-    class A,A1,A2,A3,A4 trackA;
-    class B,B1,B2,B3,B4 trackB;
+    class G group;
+    class A clinical;
+    class B omics;
+    class C new;
+    class K,S shared;
 ```
 
 ## 检验医学与病原生信
@@ -72,19 +79,16 @@ flowchart TB
 | [12 符号与术语索引](02_多模态多组学/12_符号与术语索引/README.md) | 数学符号、生物与数据术语、模型组件、迁移、评价与应用术语 |
 | [13 参考资料](02_多模态多组学/13_参考资料/README.md) | 原始研究、基础教材、测量与方法论文、官方文档和数据入口 |
 
-## 资料分享与合作交流
+## 从一次小贡献开始
 
-- **论文与研究进展：**推荐值得读的论文、综述和研究问题，交流方法、数据与结果。
-- **工具、数据与经验：**分享公开数据集、开源代码、教程和实际使用中的发现。
-- **学术活动信息：**分享会议、讲座、征稿、报名信息和参与收获。
-- **项目想法与合作机会：**介绍正在探索的问题、已有材料和希望认识的伙伴。
+你可以[推荐一份资料](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=01_resource.yml)，也可以[指出一处问题或补充内容](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=02_content.yml)。想直接修改页面时，可以提交 Pull Request，让大家一起看看。具体做法写在[共建指南](CONTRIBUTING.md)里。
 
-小组会定期整理和分享资料、研究动态与合作信息。成员可以推荐内容、提出问题、交流经验，也可以把理解写成知识笔记或可复算的例子。
+有一个想探索的方向，就带着它来。[新方向提议](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=03_new_direction.yml)可以从一个问题、几篇论文或一份初步笔记开始，之后再和感兴趣的伙伴慢慢展开。正在找人合作，也欢迎介绍[项目想法与已有基础](projects/README.md)。
 
-## 加入与共建
+## 加入我们
 
-欢迎计算机、人工智能、数据科学、生物信息、生命科学、医学与检验等背景的同学和伙伴。可以联系**梅锐翔或贾晓**加入，介绍自己的背景、关注方向和最近想了解的问题。
+欢迎计算机、人工智能、数据科学、生物信息、生命科学、医学与检验等背景的同学和伙伴。可以联系**梅锐翔或贾晓**加入小组，聊聊你最近在读什么、遇到了什么问题，或者想认识什么样的合作伙伴。
 
-后续将招募**管理者与各方向组长**，共同维护资料、整理知识和连接成员的研究兴趣。具体介绍见[小组介绍与加入](community.md)；知识修订和资料贡献见[共建说明](CONTRIBUTING.md)。
+后续会招募管理者和方向组长，一起照看资料、回应问题、维护感兴趣的内容。想持续参与的伙伴，欢迎来聊聊你愿意一起做的事。
 
-[文件架构](folder-architecture.md) · [内容来源](sources/README.md)
+[了解小组](community.md) · [一起贡献](CONTRIBUTING.md) · [仓库导航](folder-architecture.md)

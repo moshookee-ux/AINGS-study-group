@@ -1,0 +1,21 @@
+name: 推荐一份资料
+description: 论文、工具、数据集、教程，或你觉得值得分享的内容。
+title: "[资料] "
+body:
+  - type: textarea
+    id: resource
+    attributes:
+      label: 想分享什么
+      description: 写下名称和原始链接。
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: 你觉得哪里值得看
+      description: 可以聊聊它帮助你解决了什么问题，或适合哪些伙伴。
+  - type: input
+    id: topic
+    attributes:
+      label: 相关主题
+      description: 可以填已有主题，也可以写一个新的方向。
