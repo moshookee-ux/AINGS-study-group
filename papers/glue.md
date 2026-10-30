@@ -1,6 +1,11 @@
 # GLUE：没有逐一配对的细胞，怎样连接不同组学？
 
-[论文图解](README.md) · [多模态多组学](../02_多模态多组学/README.md) · [首页](../README.md)
+[论文与方法](README.md) · [多模态多组学](../02_多模态多组学/README.md) · [首页](../README.md)
+
+**Multi-omics single-cell data integration and regulatory inference with graph-linked embedding**<br/>
+Cao ZJ, Gao G. · *Nature Biotechnology* · 2022<br/>
+[论文与图表](https://doi.org/10.1038/s41587-022-01284-4) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/35501393/) · [开放全文](https://europepmc.org/articles/PMC9546775)
+
 
 不同组学可能测量不同的细胞，特征也不同：一边是基因，一边是染色质区域，还可能有其他分子层次。GLUE 用特征间的先验关系连接这些数据。这张框架图把“细胞怎样表示”和“特征怎样连接”放在了同一个模型里。
 
@@ -32,3 +37,17 @@
 - **自己的数据需要哪些对应关系？** 先写清细胞、特征、供体和观测模态，再考虑适合的整合方式。可以接着读[数据的对应关系](../02_多模态多组学/06_多模态整合_融合与预训练/01_数据的对应关系决定能够学习什么.md)。
 
 [继续看多模态分析流程](../02_多模态多组学/README.md#一张图读懂多模态分析) · [分享你的理解](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=02_content.yml)
+
+## 把模型与结果对上
+
+- 引导图中的边来自哪些生物知识，连接的是哪两类特征？
+- 配对参考或细胞标签在训练、调参和评价中分别起什么作用？
+- 同时检查跨模态对齐与细胞结构保留，并观察更换或扰动引导图后的变化。
+
+## 接着读，也接着写
+
+**回到知识库：** [神经网络、Transformer与生物表示](../02_多模态多组学/05_神经网络_Transformer与生物表示/README.md) · [多模态整合、融合与预训练](../02_多模态多组学/06_多模态整合_融合与预训练/README.md) · [模型评价、实验设计与生物学解释](../02_多模态多组学/08_模型评价_实验设计与生物学解释/README.md)。
+
+**相邻论文：** [MultiVI](multivi.md) · [MOFA+](mofa.md) · [scIB](scib.md) · [方法对照](compare.md)。
+
+你也可以补一段解释、一个小例子，或指出尚未想清楚的地方。[分享笔记与问题](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=01_resource.yml) · [共建指南](../CONTRIBUTING.md)。

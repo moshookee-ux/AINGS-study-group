@@ -1,8 +1,12 @@
 # 参考资料
 
-[统一入口](README.md) · [学习路径](study-path.md) · [专题索引](topics.md) · [论文图解](papers/README.md)
+[统一入口](README.md) · [学习路径](study-path.md) · [专题索引](topics.md) · [论文与方法](papers/README.md)
 
 这里汇集论文、综述、教材、工具和数据入口。读到有帮助的内容，欢迎分享链接和使用体会，或补充适合一起阅读的资料。
+
+## 先找一篇配套导读
+
+[20 篇论文导读](papers/README.md)按研究问题连接两个知识方向，包含读图线索、方法拆解和小练习。可以同时打开[方法对照](papers/compare.md)，或下载[BibTeX 引用清单](papers/references.bib)。
 
 ## 检验医学与病原生信
 

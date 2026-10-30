@@ -3,70 +3,70 @@
 <defs><linearGradient id="hero" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#102c43"/><stop offset="1" stop-color="#101b31"/></linearGradient>
 <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5ee0bd"/><stop offset="1" stop-color="#91e3df"/></linearGradient>
 <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a0b8ff"/><stop offset="1" stop-color="#d4bbf7"/></linearGradient>
-<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#8094a6"/></marker></defs>
-<rect x="0" y="0" width="1200" height="1210" rx="24" fill="#f6f8fb" stroke="none" />
-<text x="36" y="40" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#50667a" text-anchor="start" letter-spacing="2">AINGS / ANALYSIS DAG</text>
-<text x="36" y="83" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#10273b" text-anchor="start" >一份多模态数据，怎样走到可信的结果</text>
-<text x="36" y="116" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >先明确对象与观测，再组织表示、学习和评价。</text>
-<rect x="220" y="155" width="760" height="139" rx="16" fill="#ffffff" stroke="#d5dfe7" />
-<rect x="220" y="173" width="4" height="103" rx="2" fill="#10273b" stroke="none" />
-<text x="242" y="184" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#10273b" text-anchor="start" letter-spacing="1">01 / QUESTION &amp; DATA</text>
-<text x="242" y="217" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#10273b" text-anchor="start" >研究问题、来源与分析单位</text>
-<text x="242" y="247" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >样本与供体 · 特征身份 · 配对关系 · 观测状态</text>
-<path d="M 600 294 L 600 319 L 290 319 L 290 348" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
-<rect x="35" y="357" width="510" height="139" rx="16" fill="#ffffff" stroke="#d5dfe7" />
-<rect x="35" y="375" width="4" height="103" rx="2" fill="#10273b" stroke="none" />
-<text x="57" y="386" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#10273b" text-anchor="start" letter-spacing="1">02 / SPLIT</text>
-<text x="57" y="419" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#10273b" text-anchor="start" >按使用场景划分数据</text>
-<text x="57" y="449" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >训练 · 验证 · 测试</text>
-<path d="M 545 427 L 645 427" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
-<rect x="655" y="357" width="510" height="139" rx="16" fill="#ffffff" stroke="#d5dfe7" />
-<rect x="655" y="375" width="4" height="103" rx="2" fill="#10273b" stroke="none" />
-<text x="677" y="386" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#10273b" text-anchor="start" letter-spacing="1">03 / FIT PREPROCESSING</text>
-<text x="677" y="419" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#10273b" text-anchor="start" >在训练范围确定处理参数</text>
-<text x="677" y="449" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >特征选择 · 缩放 · 投影</text>
-<path d="M 910 496 L 910 529 L 202 529 L 202 560" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
-<path d="M 910 496 L 910 529 L 600 529 L 600 560" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
-<path d="M 910 496 L 910 529 L 998 529 L 998 560" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
-<rect x="35" y="569" width="335" height="112" rx="16" fill="#e5f3ef" stroke="#add6cb" />
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#93939d"/></marker></defs>
+<rect x="0" y="0" width="1200" height="1210" rx="24" fill="#f5f5f7" stroke="none" />
+<text x="36" y="40" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#61616b" text-anchor="start" letter-spacing="2">AINGS / ANALYSIS DAG</text>
+<text x="36" y="83" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#1d1d1f" text-anchor="start" >一份多模态数据，怎样走到可信的结果</text>
+<text x="36" y="116" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#61616b" text-anchor="start" >先明确对象与观测，再组织表示、学习和评价。</text>
+<rect x="220" y="155" width="760" height="139" rx="16" fill="#ffffff" stroke="#dedee4" />
+<rect x="220" y="173" width="4" height="103" rx="2" fill="#1d1d1f" stroke="none" />
+<text x="242" y="184" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#1d1d1f" text-anchor="start" letter-spacing="1">01 / QUESTION &amp; DATA</text>
+<text x="242" y="217" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#1d1d1f" text-anchor="start" >研究问题、来源与分析单位</text>
+<text x="242" y="247" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#61616b" text-anchor="start" >样本与供体 · 特征身份 · 配对关系 · 观测状态</text>
+<path d="M 600 294 L 600 319 L 290 319 L 290 348" fill="none" stroke="#93939d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<rect x="35" y="357" width="510" height="139" rx="16" fill="#ffffff" stroke="#dedee4" />
+<rect x="35" y="375" width="4" height="103" rx="2" fill="#1d1d1f" stroke="none" />
+<text x="57" y="386" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#1d1d1f" text-anchor="start" letter-spacing="1">02 / SPLIT</text>
+<text x="57" y="419" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#1d1d1f" text-anchor="start" >按使用场景划分数据</text>
+<text x="57" y="449" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#61616b" text-anchor="start" >训练 · 验证 · 测试</text>
+<path d="M 545 427 L 645 427" fill="none" stroke="#93939d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<rect x="655" y="357" width="510" height="139" rx="16" fill="#ffffff" stroke="#dedee4" />
+<rect x="655" y="375" width="4" height="103" rx="2" fill="#1d1d1f" stroke="none" />
+<text x="677" y="386" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#1d1d1f" text-anchor="start" letter-spacing="1">03 / FIT PREPROCESSING</text>
+<text x="677" y="419" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#1d1d1f" text-anchor="start" >在训练范围确定处理参数</text>
+<text x="677" y="449" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#61616b" text-anchor="start" >特征选择 · 缩放 · 投影</text>
+<path d="M 910 496 L 910 529 L 202 529 L 202 560" fill="none" stroke="#93939d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M 910 496 L 910 529 L 600 529 L 600 560" fill="none" stroke="#93939d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M 910 496 L 910 529 L 998 529 L 998 560" fill="none" stroke="#93939d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<rect x="35" y="569" width="335" height="112" rx="16" fill="#eaf5f2" stroke="#c4e4db" />
 <rect x="35" y="587" width="4" height="76" rx="2" fill="#087f78" stroke="none" />
-<text x="57" y="598" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#087f78" text-anchor="start" letter-spacing="1">04 / RNA</text>
-<text x="57" y="631" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#087f78" text-anchor="start" >数值与身份编码</text>
-<rect x="433" y="569" width="335" height="112" rx="16" fill="#eeeffb" stroke="#c7c9ec" />
-<rect x="433" y="587" width="4" height="76" rx="2" fill="#4e55ad" stroke="none" />
-<text x="455" y="598" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#4e55ad" text-anchor="start" letter-spacing="1">04 / ATAC</text>
-<text x="455" y="631" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#4e55ad" text-anchor="start" >数值与身份编码</text>
+<text x="57" y="598" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#087f78" text-anchor="start" letter-spacing="1">04 / RNA</text>
+<text x="57" y="631" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#087f78" text-anchor="start" >数值与身份编码</text>
+<rect x="433" y="569" width="335" height="112" rx="16" fill="#eef0fb" stroke="#d4d9ee" />
+<rect x="433" y="587" width="4" height="76" rx="2" fill="#4256b8" stroke="none" />
+<text x="455" y="598" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#4256b8" text-anchor="start" letter-spacing="1">04 / ATAC</text>
+<text x="455" y="631" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#4256b8" text-anchor="start" >数值与身份编码</text>
 <rect x="831" y="569" width="335" height="112" rx="16" fill="#fff4e1" stroke="#e8d2aa" />
 <rect x="831" y="587" width="4" height="76" rx="2" fill="#97601d" stroke="none" />
-<text x="853" y="598" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#97601d" text-anchor="start" letter-spacing="1">04 / ADT 等</text>
-<text x="853" y="631" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#97601d" text-anchor="start" >可用模态编码</text>
-<path d="M 202 681 L 202 715 L 600 715 L 600 744" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
-<path d="M 600 681 L 600 715 L 600 715 L 600 744" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
-<path d="M 998 681 L 998 715 L 600 715 L 600 744" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
-<rect x="190" y="753" width="820" height="137" rx="16" fill="#eeeffb" stroke="#c7c9ec" />
-<rect x="190" y="771" width="4" height="101" rx="2" fill="#4e55ad" stroke="none" />
-<text x="212" y="782" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#4e55ad" text-anchor="start" letter-spacing="1">05 / FUSION</text>
-<text x="212" y="815" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#4e55ad" text-anchor="start" >组合可用信息</text>
-<text x="212" y="845" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >拼接 · 概率潜变量 · 注意力 · 邻域</text>
-<path d="M 600 890 L 600 920 L 202 920 L 202 948" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
-<rect x="35" y="957" width="335" height="139" rx="16" fill="#e5f3ef" stroke="#add6cb" />
+<text x="853" y="598" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#97601d" text-anchor="start" letter-spacing="1">04 / ADT 等</text>
+<text x="853" y="631" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#97601d" text-anchor="start" >可用模态编码</text>
+<path d="M 202 681 L 202 715 L 600 715 L 600 744" fill="none" stroke="#93939d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M 600 681 L 600 715 L 600 715 L 600 744" fill="none" stroke="#93939d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M 998 681 L 998 715 L 600 715 L 600 744" fill="none" stroke="#93939d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<rect x="190" y="753" width="820" height="137" rx="16" fill="#eef0fb" stroke="#d4d9ee" />
+<rect x="190" y="771" width="4" height="101" rx="2" fill="#4256b8" stroke="none" />
+<text x="212" y="782" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#4256b8" text-anchor="start" letter-spacing="1">05 / FUSION</text>
+<text x="212" y="815" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#4256b8" text-anchor="start" >组合可用信息</text>
+<text x="212" y="845" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#61616b" text-anchor="start" >拼接 · 概率潜变量 · 注意力 · 邻域</text>
+<path d="M 600 890 L 600 920 L 202 920 L 202 948" fill="none" stroke="#93939d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<rect x="35" y="957" width="335" height="139" rx="16" fill="#eaf5f2" stroke="#c4e4db" />
 <rect x="35" y="975" width="4" height="103" rx="2" fill="#087f78" stroke="none" />
-<text x="57" y="986" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#087f78" text-anchor="start" letter-spacing="1">06 / LEARN</text>
-<text x="57" y="1019" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#087f78" text-anchor="start" >用有效观测学习</text>
-<text x="57" y="1049" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >重建、对比、分类或回归</text>
-<rect x="433" y="957" width="335" height="139" rx="16" fill="#eeeffb" stroke="#c7c9ec" />
-<rect x="433" y="975" width="4" height="103" rx="2" fill="#4e55ad" stroke="none" />
-<text x="455" y="986" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#4e55ad" text-anchor="start" letter-spacing="1">07 / VALIDATE</text>
-<text x="455" y="1019" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#4e55ad" text-anchor="start" >用验证数据选择方案</text>
-<text x="455" y="1049" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >对照基线与候选设置</text>
+<text x="57" y="986" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#087f78" text-anchor="start" letter-spacing="1">06 / LEARN</text>
+<text x="57" y="1019" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#087f78" text-anchor="start" >用有效观测学习</text>
+<text x="57" y="1049" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#61616b" text-anchor="start" >重建、对比、分类或回归</text>
+<rect x="433" y="957" width="335" height="139" rx="16" fill="#eef0fb" stroke="#d4d9ee" />
+<rect x="433" y="975" width="4" height="103" rx="2" fill="#4256b8" stroke="none" />
+<text x="455" y="986" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#4256b8" text-anchor="start" letter-spacing="1">07 / VALIDATE</text>
+<text x="455" y="1019" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#4256b8" text-anchor="start" >用验证数据选择方案</text>
+<text x="455" y="1049" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#61616b" text-anchor="start" >对照基线与候选设置</text>
 <rect x="831" y="957" width="335" height="139" rx="16" fill="#fff4e1" stroke="#e8d2aa" />
 <rect x="831" y="975" width="4" height="103" rx="2" fill="#97601d" stroke="none" />
-<text x="853" y="986" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#97601d" text-anchor="start" letter-spacing="1">08 / TEST</text>
-<text x="853" y="1019" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#97601d" text-anchor="start" >在留出对象评价</text>
-<text x="853" y="1049" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#50667a" text-anchor="start" >指标、分组表现与缺失情况</text>
-<path d="M 370 1027 L 423 1027" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
-<path d="M 768 1027 L 821 1027" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
-<path d="M 998 1096 L 998 1129 L 600 1129 L 600 1143" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
-<rect x="190" y="1152" width="820" height="38" rx="14" fill="#10273b" stroke="none" />
-<text x="600" y="1178" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="500" fill="#fff" text-anchor="middle" >解释结果 · 记录依据 · 连接生物学问题</text>
+<text x="853" y="986" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#97601d" text-anchor="start" letter-spacing="1">08 / TEST</text>
+<text x="853" y="1019" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="650" fill="#97601d" text-anchor="start" >在留出对象评价</text>
+<text x="853" y="1049" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#61616b" text-anchor="start" >指标、分组表现与缺失情况</text>
+<path d="M 370 1027 L 423 1027" fill="none" stroke="#93939d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M 768 1027 L 821 1027" fill="none" stroke="#93939d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<path d="M 998 1096 L 998 1129 L 600 1129 L 600 1143" fill="none" stroke="#93939d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<rect x="190" y="1152" width="820" height="38" rx="14" fill="#1d1d1f" stroke="none" />
+<text x="600" y="1178" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="500" fill="#fff" text-anchor="middle" >解释结果 · 记录依据 · 连接生物学问题</text>
 </svg>

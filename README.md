@@ -1,29 +1,28 @@
 # AINGS 学习小组
 
-![AINGS 学习小组：共建 AI＋生信知识库，让每一份分享都能留下来。](assets/aings-cover.svg)
+![AINGS 学习小组：把一个人的积累，变成大家的知识。](assets/aings-cover.svg)
 
 <p align="center">
-  <a href="#逛逛知识地图">知识地图</a> ·
-  <a href="papers/README.md">论文图解</a> ·
+  <a href="#逛逛知识地图">知识目录</a> ·
+  <a href="papers/README.md">论文与方法</a> ·
   <a href="study-path.md">学习导航</a> ·
-  <a href="https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=01_resource.yml">分享资料</a> ·
   <a href="CONTRIBUTING.md">一起共建</a> ·
   <a href="community.md#加入我们">加入小组</a>
 </p>
 
-**作者：梅锐翔、贾晓。** 欢迎每一位贡献者加入，也留下自己的署名。
+**作者：贾晓、梅锐翔。** 欢迎每一位贡献者加入，也留下自己的署名。
 
 **一起建设一个人人可以学习、人人可以贡献的 AI＋生信知识仓库。**
 
-AINGS 是一个围绕共享知识仓库开展学习与交流的兴趣小组。我们的共同任务，是把大家在 AI 与生物信息学领域积累的资料、理解和实践整理下来，让更多人能够接着学、接着补充。
+我们把读过的资料、想明白的概念、跑通的代码整理在这里。你可以随时来查一个术语、跟算一段公式、读一篇论文；也欢迎把自己的笔记和经验留下来，帮下一位读者更快进入这个领域。
 
-这个仓库向所有人开放。你可以直接阅读知识笔记、跟算公式、运行例子，也欢迎分享自己整理的笔记、论文、数据集、工具教程和代码。一个帮你想通概念的解释，一次实践中解决的小问题，都可能正好帮到下一个人。
+加入 AINGS 兴趣小组，也可以加入仓库协作。大家一起分享资料、交流问题、寻找合作，把已有内容写得更清楚，也把新的兴趣展开。
 
-**加入兴趣小组，也欢迎加入仓库协作。** 大家带着各自的兴趣和经验，一边交流，一边把资料整理好、把内容讲清楚，也把新的方向展开。[分享一份资料](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=01_resource.yml) · [了解怎样共建](CONTRIBUTING.md) · [加入我们](#加入我们)
+[分享一份资料](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=01_resource.yml) · [了解怎样共建](CONTRIBUTING.md) · [加入我们](#加入我们)
 
 ## 逛逛知识地图
 
-目前展开的两个方向，从不同的研究对象进入 AI 与生物信息学。你可以按问题来回查阅，也可以把新的兴趣写进来，让这里继续长出更多内容。
+从样本中的病原线索，到细胞里的多组学信息，这里有两个相互连接的知识入口。可以深入一个主题，也可以带着问题来回查阅；更多路线与内容，欢迎你来展开。
 
 <table>
 <tr>
@@ -42,36 +41,51 @@ AINGS 是一个围绕共享知识仓库开展学习与交流的兴趣小组。�
 </tr>
 </table>
 
-![AINGS 共享知识地图：所有人都可以学习与贡献，两个平级方向共同积累知识，也欢迎展开更多方向。](assets/knowledge-map.svg)
+**这里可以找到：** 概念与推导 · 论文导读 · 方法图解 · 完整算例 · 工具与数据 · 项目与合作。
 
-**还有哪些方向值得一起展开？** 也许你正在研究空间组学中的某个问题，想整理 AI 科研工具的使用经验，或者有一份完全不同的资料清单。都欢迎[把想法带来](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=03_new_direction.yml)，和感兴趣的伙伴慢慢把它写成新的内容。
+![AINGS 共享知识地图：两个平级知识方向，也欢迎更多方向加入。](assets/knowledge-map.svg)
 
-## 从论文的一张图读起
+有一份新的资料清单，或一个想继续研究的问题？欢迎[提出新的方向](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=03_new_direction.yml)，和感兴趣的伙伴一起把它写出来。
 
-模型图里的每一根箭头，通常都对应一个具体问题。我们把论文原图、中文阅读线索和知识章节放在一起，方便一边看图，一边回头查概念。
+## 论文与方法
+
+**20 篇独立导读，两个方向各 10 篇。** 从一个研究问题出发，读输入与输出、方法中的关键计算、图里的关系，以及评价结果时该看什么。每篇都连接相关知识章节，配一个可以自己试一试的小练习。
+
+![论文与方法：从数据、模型与评价三个角度进入阅读。](assets/papers-cover.svg)
+
+| 从哪类问题进入 | 可以先读这些 | 接着探索 |
+| --- | --- | --- |
+| 序列怎样获得分类与耐药线索？ | [Kraken 2](papers/kraken2.md) · [Kaiju](papers/kaiju.md) · [DeepARG](papers/deeparg.md) | [Centrifuge](papers/centrifuge.md) · [DeepMicrobes](papers/deepmicrobes.md) · [BERTax](papers/bertax.md) |
+| 样本背景和基因组比较怎样解释？ | [CZ ID](papers/czid.md) · [decontam](papers/decontam.md) | [FastANI](papers/fastani.md) · [组成型数据](papers/compositionality.md) |
+| 多种测量怎样进入同一个分析？ | [CITE-seq](papers/cite-seq.md) · [WNN](papers/wnn.md) · [totalVI](papers/totalvi.md) | [TEA-seq](papers/tea-seq.md) · [MultiVI](papers/multivi.md) · [scVAEIT](papers/scvaeit.md) |
+| 先验、预训练与评价怎样连接？ | [GLUE](papers/glue.md) · [scGPT](papers/scgpt.md) | [MOFA+](papers/mofa.md) · [scIB](papers/scib.md) |
+
+[浏览全部论文与阅读地图 →](papers/README.md) · [比较方法的输入、输出与前提](papers/compare.md) · [下载 BibTeX](papers/references.bib)
+
+### 两张图，走进两类问题
 
 <table>
 <tr>
 <td width="50%" valign="top">
 <p><b>CZ ID · 病原与耐药分析</b><br/>Genome Medicine · 2025</p>
-<a href="papers/czid.md"><img src="assets/figures/czid-fig1.png" alt="CZ ID Figure 1：质量处理后的 reads 分别进入组装、耐药基因检测与物种分析流程。" width="600" /></a>
+<a href="papers/czid.md"><img src="assets/figures/czid-fig1.png" alt="CZ ID Figure 1：从 reads 预处理到组装、耐药基因和物种分析。" width="600" /></a>
 <p><b>同一批 reads，为什么要走几条分析路径？</b></p>
-<p>从预处理开始，辨认 reads、contig、物种信息与耐药基因结果的关系。</p>
-<p><a href="papers/czid.md">看原图、读中文线索 →</a></p>
+<p>分清 reads、contig、物种信息与耐药基因结果。</p>
+<p><a href="papers/czid.md">看原图，读中文线索 →</a></p>
 <sub>Lu et al., Fig. 1 · <a href="https://doi.org/10.1186/s13073-025-01480-2">原文</a> · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></sub>
 </td>
 <td width="50%" valign="top">
 <p><b>GLUE · 非配对多组学整合</b><br/>Nature Biotechnology · 2022</p>
-<a href="papers/glue.md"><img src="assets/figures/glue-fig1.png" alt="GLUE Figure 1：先验引导图连接不同组学的特征表示，模态编码器学习细胞表示，并通过重建与对抗学习组织整合。" width="600" /></a>
+<a href="papers/glue.md"><img src="assets/figures/glue-fig1.png" alt="GLUE Figure 1：先验图连接特征表示，组学编码器学习细胞表示，再联合重建与对齐。" width="600" /></a>
 <p><b>没有逐一配对的细胞，怎样连接不同组学？</b></p>
-<p>分清引导图、特征表示与细胞表示，沿着编码、重建和对齐三条线读懂框架。</p>
-<p><a href="papers/glue.md">看原图、读中文线索 →</a></p>
+<p>分清特征图、细胞表示、数据重建与跨模态对齐。</p>
+<p><a href="papers/glue.md">沿着图，拆解方法 →</a></p>
 <sub>Cao &amp; Gao, Fig. 1 · <a href="https://doi.org/10.1038/s41587-022-01284-4">原文</a> · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a><br/>部分素材：<a href="https://smart.servier.com/">Servier Medical Art</a> · <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></sub>
 </td>
 </tr>
 </table>
 
-图中保留原文标注，点击卡片可以查看大图和逐步解读。更多来源见[论文图解](papers/README.md)与[图片署名](assets/credits.md)，也欢迎分享你觉得值得讲清楚的一张图。
+导读中共收录 **8 张论文原图**，可以打开大图慢慢看。原始出处与许可见[图片署名](assets/credits.md)。也欢迎带来一张帮你想通问题的图，写下自己的理解。
 
 ## 带着一个问题开始
 
@@ -137,7 +151,7 @@ AINGS 是一个围绕共享知识仓库开展学习与交流的兴趣小组。�
 
 欢迎计算机、人工智能、数据科学、生物信息、生命科学、医学与检验等背景的同学和伙伴，也欢迎刚开始了解这个交叉领域的朋友。
 
-想和大家一起学习、持续共建，可以联系**[梅锐翔](https://github.com/FairYJmrx)**或**[贾晓](https://github.com/moshookee-ux)**加入兴趣小组。入群时把 **GitHub 用户名**发给我们，我们会安排仓库协作邀请；接受邀请后，就可以和小组伙伴一起维护内容。
+想和大家一起学习、持续共建，可以联系**[贾晓](https://github.com/moshookee-ux)**或**[梅锐翔](https://github.com/FairYJmrx)**加入兴趣小组。入群时把 **GitHub 用户名**发给我们，我们会安排仓库协作邀请；接受邀请后，就可以和小组伙伴一起维护内容。
 
 也欢迎聊聊最近在读什么、想整理哪些资料，或者希望认识什么样的合作伙伴。后续会招募管理者与方向组长，一起照看目录、回应问题、组织内容更新，让更多人能够参与进来。
 

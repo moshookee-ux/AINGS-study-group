@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1000" viewBox="0 0 1200 1000" role="img" aria-labelledby="title desc">
+<title id="title">从研究问题找到相邻论文</title><desc id="desc">两个平级方向各展开四组阅读入口。箭头表示建议的阅读衔接。</desc>
+<defs><linearGradient id="hero" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#102c43"/><stop offset="1" stop-color="#101b31"/></linearGradient>
+<linearGradient id="mint" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5ee0bd"/><stop offset="1" stop-color="#91e3df"/></linearGradient>
+<linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a0b8ff"/><stop offset="1" stop-color="#d4bbf7"/></linearGradient>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#8094a6"/></marker></defs>
+<rect x="0" y="0" width="1200" height="1000" rx="24" fill="#f5f5f7" stroke="none" />
+<text x="36" y="40" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#61616b" text-anchor="start" letter-spacing="2">AINGS / READING MAP</text>
+<text x="36" y="83" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#1d1d1f" text-anchor="start" >从一个问题，读到相邻的方法</text>
+<text x="36" y="116" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#61616b" text-anchor="start" >沿箭头串起阅读，也可以从任何一个问题开始。</text>
+<text x="57" y="170" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="650" fill="#087f78" text-anchor="start" >检验医学与病原生信</text>
+<rect x="35" y="198" width="540" height="143" rx="18" fill="#fff" stroke="#dedee4" />
+<text x="59" y="230" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="17" font-weight="600" fill="#087f78" text-anchor="start" >参考与检索</text>
+<text x="59" y="274" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="650" fill="#1d1d1f" text-anchor="start" >Kraken 2 · Centrifuge · Kaiju</text>
+<text x="59" y="310" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#61616b" text-anchor="start" >序列怎样获得分类线索</text>
+<path d="M 305 343 L 305 370" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<rect x="35" y="379" width="540" height="143" rx="18" fill="#fff" stroke="#dedee4" />
+<text x="59" y="411" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="17" font-weight="600" fill="#087f78" text-anchor="start" >学习序列表示</text>
+<text x="59" y="455" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="650" fill="#1d1d1f" text-anchor="start" >DeepMicrobes · BERTax</text>
+<text x="59" y="491" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#61616b" text-anchor="start" >训练数据怎样进入模型</text>
+<path d="M 305 524 L 305 551" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<rect x="35" y="560" width="540" height="143" rx="18" fill="#fff" stroke="#dedee4" />
+<text x="59" y="592" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="17" font-weight="600" fill="#087f78" text-anchor="start" >基因与基因组</text>
+<text x="59" y="636" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="650" fill="#1d1d1f" text-anchor="start" >DeepARG · CZ ID · FastANI</text>
+<text x="59" y="672" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#61616b" text-anchor="start" >基因检测、流程与基因组比较</text>
+<path d="M 305 705 L 305 732" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<rect x="35" y="741" width="540" height="143" rx="18" fill="#fff" stroke="#dedee4" />
+<text x="59" y="773" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="17" font-weight="600" fill="#087f78" text-anchor="start" >样本与统计</text>
+<text x="59" y="817" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="650" fill="#1d1d1f" text-anchor="start" >decontam · 组成型数据</text>
+<text x="59" y="853" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#61616b" text-anchor="start" >污染、浓度与相对变化</text>
+<text x="647" y="170" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="650" fill="#4256b8" text-anchor="start" >多模态多组学</text>
+<rect x="625" y="198" width="540" height="143" rx="18" fill="#fff" stroke="#dedee4" />
+<text x="649" y="230" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="17" font-weight="600" fill="#4256b8" text-anchor="start" >联合测量</text>
+<text x="649" y="274" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="650" fill="#1d1d1f" text-anchor="start" >CITE-seq · TEA-seq</text>
+<text x="649" y="310" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#61616b" text-anchor="start" >同一个细胞有哪些观测</text>
+<path d="M 895 343 L 895 370" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<rect x="625" y="379" width="540" height="143" rx="18" fill="#fff" stroke="#dedee4" />
+<text x="649" y="411" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="17" font-weight="600" fill="#4256b8" text-anchor="start" >邻域与概率</text>
+<text x="649" y="455" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="650" fill="#1d1d1f" text-anchor="start" >WNN · totalVI · MultiVI</text>
+<text x="649" y="491" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#61616b" text-anchor="start" >模态信息怎样组织到一起</text>
+<path d="M 895 524 L 895 551" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<rect x="625" y="560" width="540" height="143" rx="18" fill="#fff" stroke="#dedee4" />
+<text x="649" y="592" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="17" font-weight="600" fill="#4256b8" text-anchor="start" >先验与缺失</text>
+<text x="649" y="636" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="650" fill="#1d1d1f" text-anchor="start" >MOFA+ · GLUE · scVAEIT</text>
+<text x="649" y="672" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#61616b" text-anchor="start" >因子、特征图与观测掩码</text>
+<path d="M 895 705 L 895 732" fill="none" stroke="#8094a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" />
+<rect x="625" y="741" width="540" height="143" rx="18" fill="#fff" stroke="#dedee4" />
+<text x="649" y="773" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="17" font-weight="600" fill="#4256b8" text-anchor="start" >预训练与评价</text>
+<text x="649" y="817" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="650" fill="#1d1d1f" text-anchor="start" >scGPT · scIB</text>
+<text x="649" y="853" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#61616b" text-anchor="start" >迁移到任务，再检查结果</text>
+<text x="600" y="968" font-family="Microsoft YaHei, Segoe UI, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="500" fill="#61616b" text-anchor="middle" >把问题、来源与自己的理解留下来，欢迎继续补充新的论文。</text>
+</svg>

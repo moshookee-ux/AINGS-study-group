@@ -1,6 +1,11 @@
 # CZ ID：同一批 reads，怎样连接病原与耐药分析？
 
-[论文图解](README.md) · [检验医学与病原生信](../01_检验医学与病原生信/README.md) · [首页](../README.md)
+[论文与方法](README.md) · [检验医学与病原生信](../01_检验医学与病原生信/README.md) · [首页](../README.md)
+
+**Simultaneous detection of pathogens and antimicrobial resistance genes with the open source, cloud-based, CZ ID platform**<br/>
+Lu D, Kalantar KL, Glascock AL et al. · *Genome Medicine* · 2025<br/>
+[论文与图表](https://doi.org/10.1186/s13073-025-01480-2) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/40329334/) · [开放全文](https://europepmc.org/articles/PMC12057172)
+
 
 一份测序数据里，物种信息与耐药基因信息可以沿不同路径提取。这张图把 CZ ID 的 mNGS 与 AMR 模块放在一起，适合对照“原始序列—分析对象—结果解释”这条线阅读。
 
@@ -26,3 +31,17 @@
 可以试着给图里的每根主要箭头写一句话：“输入是什么，发生了什么，输出是什么。”写不清楚的那一步，往往就是接下来值得查的概念。
 
 [继续看本方向的证据图](../01_检验医学与病原生信/README.md#三种任务分别建立证据) · [分享你的理解](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=02_content.yml)
+
+## 把流程与结果对上
+
+- 样本来自 mNGS 还是单菌株 WGS？先写下对应的分析路径与参考数据库。
+- reads 与 contig 提供的覆盖、序列上下文和物种归属信息有什么不同？
+- 将 ARG 检测结果与药敏表型分别记录，再结合培养、宿主和样本背景比较它们的关系。
+
+## 接着读，也接着写
+
+**回到知识库：** [生物信息学基础](../01_检验医学与病原生信/02_生物信息学基础/README.md) · [数据与统计基础](../01_检验医学与病原生信/03_数据与统计基础/README.md) · [方法与模型基础](../01_检验医学与病原生信/04_方法与模型基础/README.md)。
+
+**相邻论文：** [DeepARG](deeparg.md) · [Kraken 2](kraken2.md) · [decontam](decontam.md) · [方法对照](compare.md)。
+
+你也可以补一段解释、一个小例子，或指出尚未想清楚的地方。[分享笔记与问题](https://github.com/moshookee-ux/AINGS-study-group/issues/new?template=01_resource.yml) · [共建指南](../CONTRIBUTING.md)。
