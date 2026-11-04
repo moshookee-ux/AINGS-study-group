@@ -1,5 +1,9 @@
 # AINGS 学习小组
 
+**AINGS 是香港中文大学（深圳）人工智能学院 TIDE Club 的 AI＋生信学习小组。**
+
+TIDE Club 是由教师指导、学生自主运营的学术实践社团。学院产学研中心为社团提供科研资源和实践机会，支持同学们围绕人工智能、数据科学及交叉领域发起学习小组和合作项目。[学院对 TIDE Club 的介绍](https://sai.cuhk.edu.cn/zh-hans/page/80) · [TIDE 学习小组](https://tide-club.github.io/studygroup.github.io/)
+
 <p align="center">
   <img src="assets/cuhksz-sai.png" alt="香港中文大学（深圳）和人工智能学院的中英文标识" width="1440" align="top"><br>
   <img src="assets/aings-cover.svg" alt="AINGS 学习小组：AI＋生信，一起学，一起把知识留下来。" width="1440" align="top">
