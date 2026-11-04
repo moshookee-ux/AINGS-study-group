@@ -1,6 +1,9 @@
 # AINGS 学习小组
 
-![AINGS：AI＋生信，一起学，一起把知识留下来。](assets/aings-cover.svg)
+<p align="center">
+  <img src="assets/cuhksz-sai.png" alt="香港中文大学（深圳）和人工智能学院的中英文标识" width="1440" align="top"><br>
+  <img src="assets/aings-cover.svg" alt="AINGS 学习小组：AI＋生信，一起学，一起把知识留下来。" width="1440" align="top">
+</p>
 
 **AI＋生信兴趣小组，欢迎一起学习、分享与共建。**
 
@@ -12,7 +15,7 @@
 
 **AINGS 想把这样的交流延续下去。** 你可以带着正在读的论文、分析中遇到的问题，或一个想找人聊聊的研究想法加入我们。仓库已经开放，欢迎先来逛逛。
 
-[打开共享仓库](https://github.com/moshookee-ux/AINGS-study-group) · [逛逛论文画廊](papers/README.md) · [看看怎样贡献](CONTRIBUTING.md)
+[微信加入](#加入我们) · [打开共享仓库](https://github.com/moshookee-ux/AINGS-study-group) · [逛逛论文画廊](papers/README.md) · [看看怎样贡献](CONTRIBUTING.md)
 
 ## 一起建设 AI＋生信共享知识仓库
 
@@ -63,9 +66,12 @@
 
 ## 加入我们
 
-联系 **贾晓或梅锐翔**，就可以加入兴趣小组。可以简单聊聊你的背景、最近关注的方向，或想一起探索的问题。
+想加入兴趣小组，或和大家一起维护这份 AI＋生信共享仓库，欢迎在微信里添加任意一位发起人。
 
-想参与仓库维护的话，把 **GitHub 用户名**发给我们，我们会安排协作邀请。熟悉 GitHub 的伙伴可以直接提交修改；第一次参与共建，也可以先把资料和想法发出来，我们一起整理。
+- **梅锐翔**　`MaryyyyyyyyyyyyX`
+- **贾晓**　`15204742084`
+
+加好友时可以聊聊你最近关注的方向。想一起维护仓库的话，把 **GitHub 用户名**发给我们，我们会邀请你加入协作。第一次参与共建，也可以先把资料和想法发过来，我们一起整理。
 
 欢迎把这个邀请转给同样对 AI＋生信感兴趣的朋友。也许你最近想弄明白的问题，恰好有人正在研究。
 

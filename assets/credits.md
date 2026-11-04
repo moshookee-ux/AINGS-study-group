@@ -2,6 +2,10 @@
 
 [首页](../README.md) · [研究画廊](../papers/README.md) · [一起贡献](../CONTRIBUTING.md)
 
+## 香港中文大学（深圳）与人工智能学院标识
+
+封面使用香港中文大学（深圳）人工智能学院官网页眉的双标识原图。[学院官网](https://sai.cuhk.edu.cn/) · [标识原图](https://sai.cuhk.edu.cn/sites/default/files/styles/crop_freeform/public/2025-03/CUHK-SAI-Logo-02.png?itok=Ldi9uJfb)
+
 ## CZ ID 分析流程
 
 - **图片：**[Figure 1](figures/czid-fig1.png)。
